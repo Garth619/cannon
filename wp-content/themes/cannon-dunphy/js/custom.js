@@ -1,11 +1,23 @@
 jQuery(document).ready(function($){
 	
-	
+		
+		
+		
+		$('nav ul.menu > li').append('<div class="current_wrapper"><div class="current"><div class="current_inner"></div></div></div>');
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 	 /* Modernizr - check if browser supports webp. if it does add class webp to html tag
      --------------------------------------------------------------------------------------- */
 
-    Modernizr.on('webp', function(result) {});
+    // Modernizr.on('webp', function(result) {});
 
 
 
@@ -13,6 +25,7 @@ jQuery(document).ready(function($){
     /* Waypoints
      --------------------------------------------------------------------------------------- */
 
+/*
     function createWaypoint(triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
       if(jQuery('#' + triggerElementId).length) {
         var waypoint = new Waypoint({
@@ -40,6 +53,7 @@ jQuery(document).ready(function($){
         });
       }
     }
+*/
 
     //Waypoint Instance - Add Class To Element
     //Template -> createWaypoint('id-name', '.class-name', 'class-to-be-added', offset-value, null, true);
@@ -127,6 +141,7 @@ jQuery(document).ready(function($){
     /* Slick Carousel ( http://kenwheeler.github.io/slick/ )
      --------------------------------------------------------------------------------------- */
 
+/*
     jQuery('.class-name').slick({
       autoplay: true,
       dots: true,
@@ -149,6 +164,7 @@ jQuery(document).ready(function($){
         }
       }]
     });
+*/
 
 
 	

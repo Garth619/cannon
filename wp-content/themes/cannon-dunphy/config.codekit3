@@ -672,6 +672,16 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/js\/custom-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/custom-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/custom.js": {
 		"ft": 64,
 		"ma": 0,
@@ -679,7 +689,7 @@
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/modernizr-webp.js": {

@@ -6,22 +6,24 @@
 -------------------------------------------------------------- */
 
 
-/*
+
 if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
 function my_jquery_enqueue() {
    wp_deregister_script('jquery');
    wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js", false, null,true);
    wp_enqueue_script('jquery');
 }
-*/
 
 
+
+/*
 function scripts() {
   wp_deregister_script('jquery');
   wp_deregister_script( 'wp-embed' );
   wp_deregister_script( 'wp_customize_support_script' );
 }
 add_action( 'wp_enqueue_scripts', 'scripts', 1 );
+*/
 
 
 
@@ -36,7 +38,7 @@ add_action( 'wp_enqueue_scripts', 'scripts', 1 );
      wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 1, 'all' ); 
 
      // Load my javascripts
-     // wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
+     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
@@ -205,75 +207,6 @@ function cc_mime_types($mimes)
 }
 
 add_filter('upload_mimes', 'cc_mime_types');
-
-
-
-/* Combine all js, minify and inject in the footer
- --------------------------------------------------------------------------------------- */
-
-add_action( 'wp_footer', 'merge_include_js', 9);
-function merge_include_js() {
-  $jsDirLastMod = filemtime(get_stylesheet_directory().'/js');
-  $mainJSLastMod = filemtime(get_stylesheet_directory().'/main.js');
-  $_jsLastMod = filemtime(get_stylesheet_directory().'/speed/_js.js');
-
-  if ($jsDirLastMod > $_jsLastMod || $mainJSLastMod > $_jsLastMod) {
-    include(get_stylesheet_directory() . '/speed/JSMin.php');
-
-    $mergedJs = file_get_contents(ABSPATH . WPINC . '/js/jquery/jquery.js');
-
-    $gravityFiles = array(
-      WP_PLUGIN_DIR."/gravityforms/js/jquery.json.min.js",
-      WP_PLUGIN_DIR."/gravityforms/js/gravityforms.min.js",
-      WP_PLUGIN_DIR."/gravityforms/js/jquery.maskedinput.min.js",
-      WP_PLUGIN_DIR."/gravityforms/js/placeholders.jquery.min.js"
-    );
-
-    foreach ($gravityFiles as $gravityFormJsFile) {
-      $mergedJs .= file_get_contents($gravityFormJsFile);
-    }
-
-    $files = glob(get_stylesheet_directory() . '/js/*.js');
-
-    foreach($files as $file) {
-      $mergedJs .= file_get_contents($file);
-    }
-
-    $mergedJs .= file_get_contents(get_stylesheet_directory() . '/main.js');
-
-    $mergedJs = JSMin::minify($mergedJs);
-
-    file_put_contents(get_stylesheet_directory() . '/speed/_js.js', $mergedJs);
-
-    echo '<script>';
-    include_once get_stylesheet_directory().'/speed/_js.js';
-    echo  '</script>';
-  } else {
-    echo '<script>';
-    include_once get_stylesheet_directory().'/speed/_js.js';
-    echo  '</script>';
-  }
-}
-
-
-
-/* Minify Html
- --------------------------------------------------------------------------------------- */
-
-/*
-require get_stylesheet_directory() . '/speed/HTMLmin.php';
-
-function wp_html_compressor() {
-  function wp_html_compressor_main($data)
-  {
-    return html_compress($data);
-  }
-
-  ob_start('wp_html_compressor_main');
-}
-add_action('get_header', 'wp_html_compressor');
-*/
-
 
 
 

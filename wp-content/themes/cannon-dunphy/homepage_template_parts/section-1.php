@@ -45,9 +45,20 @@
 			
 		</div><!-- video_wrapper -->
 		
-		<img src="<?php bloginfo('template_directory');?>/images/hero_img_desktop.jpg"/>
+		<img class="desktop" src="<?php bloginfo('template_directory');?>/images/hero_img_desktop.jpg"/>
 		
+<!--
+		<img class="laptop" src="<?php bloginfo('template_directory');?>/images/hero_img_laptop.jpg"/>
+		
+		<img class="tablet" src="<?php bloginfo('template_directory');?>/images/hero_img_tablet.jpg"/>
+		
+		<img class="mobile" src="<?php bloginfo('template_directory');?>/images/hero_img_monile.jpg"/>
+-->
+
 		
 	</div><!-- sec_one_right -->
+	
+	
+	<img class="tablet" src="<?php bloginfo('template_directory');?>/images/hero_img_desktop.jpg"/>
 	
 </section><!-- section_one -->

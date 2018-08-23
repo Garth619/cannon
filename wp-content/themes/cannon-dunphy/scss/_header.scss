@@ -9,9 +9,14 @@ header {
 .header_left {
 	padding-left:50px;
 	padding-top:31px;
-	width:298px;
+	width: 348px;
+	margin-right:75px;
 	a {
 		display: block;
+		img {
+			max-width: 100%;
+			height:auto;
+		}
 	}
 }
 
@@ -124,6 +129,7 @@ nav {
 				}
 				ul.sub-menu {
 					opacity: 1;
+					visibility: visible;
 				}
 			}
 		}
@@ -144,6 +150,7 @@ nav {
 		width:300px;
 		background: #fff;
 		opacity: 0;
+		visibility: hidden;
 		transition: all 200ms ease-in-out;
 		> li.current-menu-item {
 				> a {
@@ -200,3 +207,96 @@ nav {
 					
 				}
 			}
+			
+			
+			
+	@media screen and (max-width: 1450px) {
+		
+		
+		
+		.header_left {
+			width: 326px;
+			margin-right: 50px;
+		}
+		
+		
+		
+nav {
+	
+	ul {
+		
+		li {
+			font-size:15px;
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+	ul.menu {
+		
+		> li.menu-item-has-children {
+				> a {
+					
+				 	&:after {
+					 	
+				 	}
+				}
+		}
+		> li.current-menu-ancestor, > li.current-menu-item {
+				> a {
+					 
+					 
+				}
+				.current_wrapper {
+					
+				}
+			}
+		> li {
+			
+			&:hover {
+				> a {
+					
+				}
+				.current_wrapper {
+					
+				}
+				ul.sub-menu {
+					
+				}
+			}
+		}
+		> li {
+				
+			 > a {
+				 
+			 }
+		}
+	}
+	ul.sub-menu {
+		
+		> li.current-menu-item {
+				> a {
+					
+				}
+		}
+		> li {
+			
+			> a {
+				
+			}
+		}
+	}
+}
+
+		
+		
+		
+		
+		
+		
+		
+		
+	} /* Media Query */

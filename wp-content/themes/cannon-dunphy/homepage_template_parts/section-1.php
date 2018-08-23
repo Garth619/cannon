@@ -26,6 +26,28 @@
 		
 	</div><!-- sec_one_left -->
 	
-	<div class="sec_one_right"></div><!-- sec_one_right -->
+	<div class="sec_one_right">
+		
+		
+		<div class="video_wrapper">
+			
+			<div class="video_button">
+				
+				<div class="video_button_inner">
+					
+					
+					
+				</div><!-- video_button_inner -->
+				
+			</div><!-- video_button -->
+			
+			<span class="video_cta">learn about our firm in <strong>45</strong> seconds</span><!-- video_cta -->
+			
+		</div><!-- video_wrapper -->
+		
+		<img src="<?php bloginfo('template_directory');?>/images/hero_img_desktop.jpg"/>
+		
+		
+	</div><!-- sec_one_right -->
 	
 </section><!-- section_one -->

@@ -59,6 +59,6 @@
 	</div><!-- sec_one_right -->
 	
 	
-	<img class="tablet" src="<?php bloginfo('template_directory');?>/images/hero_img_desktop.jpg"/>
+	<img class="tablet" src="<?php bloginfo('template_directory');?>/images/hero_img_tablet.jpg"/>
 	
 </section><!-- section_one -->

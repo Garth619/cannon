@@ -71,7 +71,7 @@ a.consultation_button {
 	span.button_title {
 		color:#fff;
 		font-family: $frankruhl;
-		font-wieght:400;
+		font-weight:400;
 		font-size:25px;
 		padding-left:20px;
 	}
@@ -543,6 +543,7 @@ a.consultation_button {
 	#section_one {
 		display: block;
 		position: relative;
+		min-height:950px;
 		img.tablet {
 			position: absolute;
 			top:0;
@@ -562,10 +563,9 @@ a.consultation_button {
 		position: relative;
 		z-index:1;
 		background: transparent;
-		height: 800px;
 		width:100%;
 		display: block;
-		padding-top:45px;
+		padding-top:50px;
 		.sec_one_left_inner {
 			text-align: center;
 			max-width: 625px;
@@ -574,21 +574,65 @@ a.consultation_button {
 				line-height: 58px;
 				border-bottom: none;
 			}
+			span.sec_one_intro {
+				display: none;
+			}
 		}
 	}
 	
 	
 	.sec_one_right {
-		position: relative;
+		position: absolute;
+		bottom:66px;
+		left:0;
 		z-index:1;
 		width:100%;
 		img {
 			display: none;
 		}
+		.video_wrapper {
+			position: static;
+			
+			
+			span.video_cta {
+				text-align: center;
+				margin-top: 30px;
+			}
+		}
 	}
 	
 	
 
+	a.consultation_button {
+		max-width: 360px;
+		margin:22px auto 0;
+		span.button_title {
+			font-size:20px;
+			padding-left: 29px;
+		}
+		.button_circle {
+			width:50px;
+			height:50px;
+			svg {
+				width: 23px;
+				height: 23px;
+			}
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	#section_one {
+	
+		min-height:800px;
+	}
 	
 	
 	

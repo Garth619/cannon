@@ -87,9 +87,27 @@ nav {
 	ul.menu {
 		display: flex;
 		justify-content: space-between;
+		> li.menu-item-has-children {
+				> a {
+					position: relative;
+				 	&:after {
+					 	content:"";
+					 	display: inline-block;
+					 	width: 0; 
+					 	height: 0; 
+					 	border-left: 4px solid transparent;
+					 	border-right: 4px solid transparent;
+					 	border-top: 7px solid $blue;
+					 	position: absolute;
+					 	top:7px;
+					 	right:-14px;
+				 	}
+				}
+		}
 		> li.current-menu-ancestor, > li.current-menu-item {
 				> a {
 					 color:$red;
+					 
 				}
 				.current_wrapper {
 					opacity: 1;
@@ -113,7 +131,7 @@ nav {
 				position: relative;
 				z-index: 5;
 			 > a {
-				 	
+				 
 			 }
 		}
 	}

@@ -8,6 +8,87 @@
 .sec_one_left {
 	background: $blue;
 	width:50%;
+	padding:155px 0 0;
+	.sec_one_left_inner {
+		max-width:730px;
+		margin:0 auto;
+		span.small_header {
+			color:#1b8ad0;
+			display: block;
+			text-transform: uppercase;
+			font-size:22px;
+			font-family: $worksans;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+		}
+		span.large_header {
+			font-size:75px;
+			line-height: 70px;
+			font-family: $frankruhl;
+			font-weight: 400;
+			color:#fff;
+			display: block;
+			margin:23px 0 0;
+			padding-bottom:25px;
+			border-bottom:2px solid #fff;
+		}
+		span.sec_one_intro {
+			color:#fff;
+			font-size:22px;
+			font-family: $frankruhl;
+			font-weight:400;
+			line-height: 30px;
+			display: block;
+			padding-top:28px;
+			letter-spacing: 0.02em;
+			max-width: 680px;
+			strong {
+				font-weight: 400;
+				color:#1b8ad0;
+			}
+		}
+	}
+}
+
+a.consultation_button {
+	background: $red;
+	display: inline-block;
+	color:#fff;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width:440px;
+	padding:7px 0px;
+	border-radius: 40px;margin-top:45px;
+	transition: all 200ms ease-in-out;
+	&:hover {
+		background: #1b8ad0;
+	}
+	span.button_title {
+		color:#fff;
+		font-family: $frankruhl;
+		font-wieght:400;
+		font-size:25px;
+		padding-left:20px;
+	}
+	.button_circle {
+		width:61px;
+		height:61px;
+		background: #fff;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right:10px;
+		svg {
+			width:27px;
+			height:27px;
+			 .arrows-cls-1 {
+        fill: $red;
+      }
+		}
+	}
 }
 
 .sec_one_right {

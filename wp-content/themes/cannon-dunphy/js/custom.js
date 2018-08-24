@@ -3,11 +3,74 @@ jQuery(document).ready(function($){
 		
 		
 		
-		$('nav ul.menu > li').append('<div class="current_wrapper"><div class="current"><div class="current_inner"></div></div></div>');
+		
+		// menu
+		
+		
+			
+			var windowWidth = $(window).width();
 		
 		
 		
+			function checkWidthmenu() {
+		    
+		    if (windowWidth > 1220) {
+		        
+		      
+		    	$('nav ul.menu > li').append('<div class="current_wrapper"><div class="current"><div class="current_inner"></div></div></div>');
+		    	   		
+		    		
+		    }
+		    
+		    
+		    if (windowWidth < 1220) {
+		        
+		      
+		      $('.mobile_menu').on('click', function(e) {
+		        
+		        $('nav').slideToggle();
+		        
+		        $('.close_x').addClass('fade');
+		        
+		      });
+		      
+		      $('.close_x').on('click', function(e) {
+		        
+		        $('nav').slideToggle();
+		        
+		        $('.close_x').removeClass('fade');
+		        
+		      });
+		      
+		    	$('nav ul.sub-menu').wrapInner('<div class="sub_menu_wrap"></div>');
+
+
+					$('nav ul.menu > li > ul.sub-menu').addClass('close');
+					
+					$('nav ul.menu > li > a').on('click', function(e) {
+  
+						$(this).parent().toggleClass('open-parent');
+  
+						$(this).next('ul.sub-menu').toggleClass('open');
+  
+						$(this).next('ul.sub-menu').toggleClass('close');
+  
+						// alert($(this).next('.sub_menu_wrap').find('ul.sub-menu').height());
+  
+						var currentheight = $(this).next('ul.sub-menu').find('.sub_menu_wrap').height();
+  
+						$(this).next('ul.sub-menu').css("height", currentheight);
+  
+  
+					});
+		    	   		
+		    		
+		    }
+		    
+		};
+			
 		
+		checkWidthmenu();
 		
 		
 		

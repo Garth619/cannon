@@ -51,7 +51,9 @@
 			
 			<a href="<?php bloginfo('url');?>">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/hero_logo_vertical.svg"/>
+				<img class="desktop" src="<?php bloginfo('template_directory');?>/images/hero_logo_vertical.svg"/>
+				
+				<img class="mobile" src="<?php bloginfo('template_directory');?>/images/hero_logo_horizontal.svg"/>
 				
 			</a>
 			
@@ -61,9 +63,15 @@
 			
 			<div class="call_wrapper">
 				
-				<span class="call_for">Call for a free consultation</span><!-- call_for -->
+				<div class="flex_wrapper">
 				
-				<span class="espanol">Se Habla Espanol</span><!-- espanol -->
+					<span class="call_for desktop">Call for a free consultation</span><!-- call_for -->
+				
+					<span class="call_for mobile">Free Consultation</span><!-- call_for -->
+				
+					<span class="espanol">Se Habla Espanol</span><!-- espanol -->
+				
+				</div><!-- flex_wrapper -->
 				
 				<a class="phone" href="tel:(855) 531-987">(855) 531-9875</a><!-- phone -->
 			
@@ -73,7 +81,30 @@
 				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 			</nav>
 			
+			<div class="mobile_phone">
+				
+				<div>
+					
+					<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/hero_icon_mobile.svg"); ?>
+					
+				</div>
+				
+			</div><!-- mobile_phone -->
+			
+			
+			<div class="mobile_menu">
+				
+				<div class="mobile_bar"></div><!-- mobile_bar -->
+				<div class="mobile_bar"></div><!-- mobile_bar -->
+				<div class="mobile_bar"></div><!-- mobile_bar -->
+				
+				<span class="mobile_menu_title">Menu</span><!-- mobile_menu_title -->
+				
+			</div><!-- mobile_menu -->
+			
 		</div><!-- header_right -->
+		
+		
 		
 	</header>
 				

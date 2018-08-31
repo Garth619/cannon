@@ -5,13 +5,15 @@
 
 
 .sec_two_inner {
+/*
 	max-width: 1735px;
 	margin:0px auto;
+*/
 	display: flex;
 }
 
 .sec_two_intro {
-	padding:100px 0 0;
+	padding:100px 35px  0 2.75%;
 	span.large_header {
 		font-size:70px;
 		font-family: $frankruhl;
@@ -48,8 +50,15 @@
 		flex-basis:33.3333%;
 		flex-shrink:0;
 		text-align: center;
-		margin:95px 0 0;
-		height:405px;
+		padding:95px 25px 0;
+		height:500px;
+		position: relative;
+		&:hover {
+			.sp_hover {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
 		span.slide_header {
 			display: block;
 			color:$blue;
@@ -67,6 +76,29 @@
 			border-radius: 50%;
 			margin:35px 0 0;
 		}
+		.sp_hover {
+			position: absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			z-index:1;
+			background: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			opacity: 0;
+			visibility: hidden;
+			transition: all 400ms ease-in-out;
+			.sp_hover_inner {
+				font-size:20px;
+				font-family: $worksans;
+				font-weight: 700;
+				color:$blue;
+				line-height: 35px;
+				max-width: 310px;
+			}
+		}
 	}
 	.sec_two_single_slide.one {
 		span.slide_header {
@@ -76,6 +108,11 @@
 	.sec_two_single_slide.two {
 		span.slide_header {
 			margin-top:40px;
+		}
+		.sp_hover {
+			.sp_hover_inner {
+				max-width: 305px;
+			}
 		}
 	}
 	.sec_two_single_slide.three {

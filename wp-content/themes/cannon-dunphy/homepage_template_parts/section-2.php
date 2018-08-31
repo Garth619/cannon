@@ -10,6 +10,7 @@
 			
 			<span class="small_header">we offer No Fee Unless We Win</span><!-- small_header -->
 			
+			
 		</div><!-- sec_two_intro -->
 		
 		<div class="sec_two_slider">
@@ -24,6 +25,16 @@
 				
 				<span class="slide_dot"></span><!-- slide_dot -->
 				
+				<div class="sp_hover">
+					
+					<div class="sp_hover_inner">
+					
+						The largest settlements are at our firm, more than $1 billion recovered for our clients and more $10 million+ settlements than any Wisconsin law firm.
+					
+					</div><!-- sp_hover_inner -->
+					
+				</div><!-- sp_hover -->
+				
 			</div><!-- sec_two_single_slide -->
 			
 			<div class="sec_two_single_slide two">
@@ -36,6 +47,16 @@
 				
 				<span class="slide_dot"></span><!-- slide_dot -->
 				
+				<div class="sp_hover">
+					
+					<div class="sp_hover_inner">
+					
+						We accept all case sizes. We are committed to representing clients in all types of injury cases, large and small, throughout the entire state of&nbsp;Wisconsin.
+					
+					</div><!-- sp_hover_inner -->
+					
+				</div><!-- sp_hover -->
+				
 			</div><!-- sec_two_single_slide -->
 			
 			<div class="sec_two_single_slide three">
@@ -47,6 +68,16 @@
 				<span class="slide_dot"></span><!-- slide_dot -->
 				
 				<span class="slide_dot"></span><!-- slide_dot -->
+				
+				<div class="sp_hover">
+					
+					<div class="sp_hover_inner">
+					
+						Experienced attorneys with up to 45 years of experience will handle your case. We employ 4 attorneys with judicial clerkship experience from trial court to Wisconsin supreme&nbsp;court.
+					
+					</div><!-- sp_hover_inner -->
+					
+				</div><!-- sp_hover -->
 				
 			</div><!-- sec_two_single_slide -->
 			

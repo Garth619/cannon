@@ -58,6 +58,13 @@
 		"oAP": "\/homepage_template_parts\/section-1.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-2.php",
+		"oF": 0
+		},
 	"\/images\/AP_img_AlFoeckler.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -367,6 +374,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/hero_img_desktop.jpg": {
+		"ft": 16384,
+		"iS": 119674,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/hero_img_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/hero_img_laptop.jpg": {
 		"ft": 16384,
@@ -831,6 +849,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/homepage\/section_one.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/homepage\/section_two.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/homepage\/section_two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

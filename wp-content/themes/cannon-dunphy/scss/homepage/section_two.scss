@@ -1,0 +1,86 @@
+#section_two {
+	background:#f1f1f1;
+	padding-left:35px;
+}
+
+
+.sec_two_inner {
+	max-width: 1735px;
+	margin:0px auto;
+	display: flex;
+}
+
+.sec_two_intro {
+	padding:100px 0 0;
+	span.large_header {
+		font-size:70px;
+		font-family: $frankruhl;
+		color:$blue;
+		line-height: 70px;
+		display: block;
+		max-width: 440px;
+		padding-bottom:32px;
+		border-bottom:4px solid $red;
+		margin-bottom:25px;
+	}
+	.money_svg {
+		display: inline-block;
+	}
+	span.small_header {
+		text-transform: uppercase;
+		display: inline-block;
+		vertical-align: top;
+		font-size:22px;
+		color:$blue;
+		font-family:$worksans;
+		font-weight: 700;
+		letter-spacing: 0.16em;
+		line-height: 25px;
+		max-width: 263px;
+		margin:12px 0 0 25px;
+	}
+}
+
+.sec_two_slider {
+	display: flex;
+	flex-grow: 1;
+	.sec_two_single_slide {
+		flex-basis:33.3333%;
+		flex-shrink:0;
+		text-align: center;
+		margin:95px 0 0;
+		height:405px;
+		span.slide_header {
+			display: block;
+			color:$blue;
+			font-size:35px;
+			line-height: 38px;
+			max-width: 260px;
+			margin:0 auto;
+			text-transform: lowercase;
+		}
+		span.slide_dot {
+			width:6px;
+			height:6px;
+			background: $red;
+			display: inline-block;
+			border-radius: 50%;
+			margin:35px 0 0;
+		}
+	}
+	.sec_two_single_slide.one {
+		span.slide_header {
+			margin-top:40px;
+		}
+	}
+	.sec_two_single_slide.two {
+		span.slide_header {
+			margin-top:40px;
+		}
+	}
+	.sec_two_single_slide.three {
+		span.slide_header {
+			margin-top:37px;
+		}
+	}
+}

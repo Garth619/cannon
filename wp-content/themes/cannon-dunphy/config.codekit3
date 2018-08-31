@@ -65,6 +65,13 @@
 		"oAP": "\/homepage_template_parts\/section-2.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-3.php",
+		"oF": 0
+		},
 	"\/images\/AP_img_AlFoeckler.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -827,6 +834,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -849,6 +869,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/homepage\/section_one.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/homepage\/section_three.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/homepage\/section_three.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

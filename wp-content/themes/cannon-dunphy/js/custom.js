@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function($){
 	
 		
@@ -204,32 +205,54 @@ jQuery(document).ready(function($){
     /* Slick Carousel ( http://kenwheeler.github.io/slick/ )
      --------------------------------------------------------------------------------------- */
 
-/*
-    jQuery('.class-name').slick({
-      autoplay: true,
-      dots: true,
-      slidesToShow: 4,
-      sidesToScroll: 1,
-      arrows: true,
-      prevArrow: '#slick-arrow-left',
-      nextArrow: '#slick-arrow-right',
-      responsive: [{
-        breakpoint: 700,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1
-        }
-      }, {
-        breakpoint: 550,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      }]
-    });
-*/
+
+  
+$('.sec_two_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  mobileFirst: true,
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 1066,
+      settings: "unslick",
+    }
+   ]
+});
 
 
+
+	
+
+
+
+	
+
+
+
+
+	function checkWidthsp() {
+    
+    if (windowWidth < 1066) {
+        
+      
+    	$('.sec_two_single_slide').on('click', function(e) {
+	    	
+	    	
+	    	$(this).toggleClass('open');
+    	  
+    	});
+    	   		
+    		
+    } 
+    
+    
+    
+  };
+	
+
+checkWidthsp();
 	
 	
 	

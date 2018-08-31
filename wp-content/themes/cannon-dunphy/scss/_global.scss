@@ -1,3 +1,7 @@
+body {
+	color:$blue;
+}
+
 .alignleft,
 img.alignleft {
 	display: inline;
@@ -25,6 +29,45 @@ img.aligncenter {
 	margin-bottom: 12px;
 	max-width:100%;
 	height:auto;
+}
+
+
+.content {
+	font-family: $worksans;
+	font-weight: 400;
+	font-size:17px;
+	line-height: 32px;
+	p {
+		margin-bottom:31px;
+	}
+	h2 {
+		color:$red;
+		font-family: $frankruhl;
+		font-weight: 400;
+		font-size:30px;
+		line-height: 32px;
+		font-style: normal;
+		margin-bottom:5px;
+		display: block;
+	}
+	ul {
+		font-weight: 700;
+		li {
+			list-style: none;
+			position: relative;
+			padding-left:20px;
+			&:before {
+				content:"";
+				width:6px;
+				height:6px;
+				background:$red;
+				border-radius: 50%;
+				position: absolute;
+				top:14px;
+				left:0;
+			}
+		}
+	}
 }
 
 

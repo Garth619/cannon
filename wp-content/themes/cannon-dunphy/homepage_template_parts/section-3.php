@@ -94,12 +94,6 @@
 				
 				</div><!-- sec_three_single_slide -->
 				
-				<div class="sec_three_single_slide">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/content1_logo_01.png"/>
-				
-				</div><!-- sec_three_single_slide -->
-			
 			</div><!-- sec_three_slider -->
 			
 			<div class="arrow_right arrow_button">
@@ -116,9 +110,21 @@
 				
 				<div class="sec_three_blockquote">
 					
-					<span>Proudly continuing a 100 year family history of four generations of lawyers representing people who have been wrongly injured.</span>
+					<span>Proudly continuing a<br/> <span class="red">100 year</span> <span class="blue">family history</span> of four generations of lawyers representing people who have been wrongly injured.</span>
 					
 				</div><!-- sec_three_blockquote -->
+				
+				<div class="sec_three_bottom_content content">
+					
+					<h2>H2 Heading Style</h2>
+
+					<p>Sostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 	Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiu.Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+ 
+					<h3>h3 heading style</h3>
+					
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+				</div><!-- sec_three_bottom_content -->
 				
 			</div><!-- sec_three_bottom_inner -->
 			

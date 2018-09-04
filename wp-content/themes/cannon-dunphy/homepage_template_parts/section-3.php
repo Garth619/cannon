@@ -44,6 +44,84 @@
 			
 		</div><!-- sec_three_content_wrapper -->
 		
+		
+		
 	</div><!-- sec_three_inner -->
+	
+	<div class="sec_three_slider_wrapper">
+			
+			<div class="arrow_left arrow_button">
+				
+				<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/arrows.svg"); ?>
+				
+			</div><!-- arrow_left -->
+			
+			<div class="sec_three_slider">
+			
+				<div class="sec_three_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content1_logo_06.png"/>
+				
+				</div><!-- sec_three_single_slide -->
+				
+				<div class="sec_three_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content1_logo_04.png"/>
+				
+				</div><!-- sec_three_single_slide -->
+				
+				<div class="sec_three_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content1_logo_03.png"/>
+				
+				</div><!-- sec_three_single_slide -->
+				
+				<div class="sec_three_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content1_logo_05.png"/>
+				
+				</div><!-- sec_three_single_slide -->
+				
+				<div class="sec_three_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content1_logo_02.png"/>
+				
+				</div><!-- sec_three_single_slide -->
+				
+				<div class="sec_three_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content1_logo_01.png"/>
+				
+				</div><!-- sec_three_single_slide -->
+				
+				<div class="sec_three_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content1_logo_01.png"/>
+				
+				</div><!-- sec_three_single_slide -->
+			
+			</div><!-- sec_three_slider -->
+			
+			<div class="arrow_right arrow_button">
+				
+				<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/arrows.svg"); ?>
+				
+			</div><!-- arrow_left -->
+			
+		</div><!-- sec_three_slider_wrapper -->
+		
+		<div class="sec_three_bottom">
+			
+			<div class="sec_three_bottom_inner">
+				
+				<div class="sec_three_blockquote">
+					
+					<span>Proudly continuing a 100 year family history of four generations of lawyers representing people who have been wrongly injured.</span>
+					
+				</div><!-- sec_three_blockquote -->
+				
+			</div><!-- sec_three_bottom_inner -->
+			
+		</div><!-- sec_three_bottom -->
 	
 </section><!-- section_three -->

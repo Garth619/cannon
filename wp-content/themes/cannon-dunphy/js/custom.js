@@ -238,17 +238,25 @@ $('.sec_three_slider').slick({
       slidesToShow: 5,
       slidesToScroll: 5,
      }
+   },
+   {
+      breakpoint: 1100,
+      settings: {
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      dots:true,
+     }
+   },
+   {
+      breakpoint: 767,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots:true,
+     }
    }
 	]
  });
-
-
-
-	
-
-
-
-	
 
 
 

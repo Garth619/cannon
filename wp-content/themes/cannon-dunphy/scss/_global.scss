@@ -80,6 +80,22 @@ img.aligncenter {
 }
 
 
+@media screen and (max-width: 1100px) {
+	
+	
+	.content {
+		h2 {
+			margin-bottom: 2px;
+		}
+		ul {
+			margin-bottom: 30px;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (max-width: 767px) {
 	

@@ -110,7 +110,7 @@
 				
 				<div class="sec_three_blockquote">
 					
-					<span>Proudly continuing a<br/> <span class="red">100 year</span> <span class="blue">family history</span> of four generations of lawyers representing people who have been wrongly injured.</span>
+					<span class="blockquote_inner">Proudly continuing a<br/> <span class="red">100 year</span> <span class="blue">family history</span> of four generations of lawyers representing people who have been wrongly injured.</span>
 					
 				</div><!-- sec_three_blockquote -->
 				

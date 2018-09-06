@@ -89,6 +89,7 @@ ul.tagline {
 }
 
 .sec_three_content.content {
+	line-height: 32px;
 	p:first-of-type:first-letter {
     font-size: 55px;
     font-family: $frankruhl;
@@ -169,12 +170,6 @@ ul.tagline {
 			letter-spacing: 0.08em;
 			padding:25px 0 0;
 			flex-shrink:0;
-			span.red {
-				color: $red;
-			}
-			span.blue {
-				color: $lightblue;
-			}
 		}
 	}
 }

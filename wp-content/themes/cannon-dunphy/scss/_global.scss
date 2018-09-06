@@ -32,11 +32,19 @@ img.aligncenter {
 }
 
 
+		span.red {
+			color: $red;
+		}
+		span.blue {
+			color: $lightblue;
+		}
+
+
 .content {
 	font-family: $worksans;
 	font-weight: 400;
 	font-size:17px;
-	line-height: 32px;
+	line-height: 34px;
 	p {
 		margin-bottom:31px;
 	}
@@ -76,6 +84,19 @@ img.aligncenter {
 				left:0;
 			}
 		}
+	}
+	blockquote {
+		text-transform: uppercase;
+		font-family: $worksans;
+		font-weight: 800;
+		font-size:40px;
+		line-height: 42px;
+		letter-spacing: 0.08em;
+		border-top:4px solid $red;
+		padding-top:28px;
+		margin-top:60px;
+		margin-bottom:78px;
+		padding-right:30px;
 	}
 }
 

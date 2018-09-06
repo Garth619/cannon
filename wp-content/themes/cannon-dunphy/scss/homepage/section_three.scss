@@ -491,7 +491,34 @@ ul.tagline {
 	.sec_three_bottom_content {
     margin-top: 74px;
 	}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
 
+
+@media screen and (max-width: 380px) {
+	
+	
+	.sec_three_inner {
+		h1 {
+			font-size: 48px;
+			line-height: 46px;
+		}
+	}
+	
+	
+	ul.tagline {
+		li {
+			&:after {
+				display: none;
+			}
+		}
+	}
+	
 	
 	
 	

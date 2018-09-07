@@ -14,10 +14,16 @@
 	
 	<div class="sidebar_pa">
 		
-		<span class="sidebar_pa_title">Lorem Ipsum Dolore</span><!-- sidebar_pa_title -->
+		<div class="sidebar_pa_inner">
 		
-		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
+			<span class="sidebar_pa_title">Lorem Ipsum Dolore</span><!-- sidebar_pa_title -->
+		
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>
+		
+		</div><!-- sidebar_pa_inner -->
+
 		
 	</div><!-- sidebar_pa -->
+
 	
 </div><!-- sidebar_wrapper -->

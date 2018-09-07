@@ -282,6 +282,17 @@ $('.sec_three_slider').slick({
 	
 
 checkWidthsp();
+
+
+
+// sidebar
+
+
+$('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', function(e) {
+  
+  $(this).next('ul.sub-menu').slideToggle();
+  
+ });
 	
 	
 	

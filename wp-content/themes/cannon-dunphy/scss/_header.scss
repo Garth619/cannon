@@ -3,6 +3,7 @@ header {
 	height:160px;
 	display: flex;
 	justify-content: space-between;
+	background: #fff;
 }
 
 
@@ -339,6 +340,17 @@ nav {
 @media screen and (max-width: 1250px) {
 	
 	
+	header {
+		height:93px;
+		position: fixed;
+		top:0;
+		left:0;
+		width:100%;
+		z-index: 10;
+		
+	}
+	
+	
 	.header_left {
 		width:282px;
 		margin-right:0;
@@ -358,9 +370,7 @@ nav {
 		}
 	}
 	
-	header {
-		height:93px;
-	}
+	
 	
 		
 	nav {

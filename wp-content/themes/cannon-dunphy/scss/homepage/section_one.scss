@@ -539,7 +539,18 @@ a.consultation_button {
 } /* Media Query */
 
 
-
+@media screen and (max-width: 1250px) {
+	
+	
+	
+	#section_one {
+		margin-top: 93px;
+	}
+	
+	
+	
+	
+} /* Media Query */
 
 @media screen and (max-width: 1220px) {
 	
@@ -549,6 +560,7 @@ a.consultation_button {
 		display: block;
 		position: relative;
 		min-height:950px;
+		
 		img.tablet {
 			position: absolute;
 			top:0;
@@ -655,6 +667,7 @@ a.consultation_button {
 	
 	#section_one {
 		min-height: 722px;
+		margin-top: 71px;
 	}
 	
 	.sec_one_left {

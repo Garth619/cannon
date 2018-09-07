@@ -136,16 +136,29 @@ img.aligncenter {
 
 
 .content {
+		h3 {
+			font-size:17px;
+			letter-spacing: 0.1em;
+			line-height: 23px;
+		}
 		h2 {
 			margin-bottom: 2px;
 		}
 		ul {
 			margin-bottom: 13px;
 		}
+		blockquote {
+			font-size: 23px;
+			line-height: 29px;
+			margin-bottom: 60px;
+			margin-top: 54px;
+		}
 	}
 	
 	
-
+	.two_col {
+		margin-bottom:0;
+	}
 	
 	
 	

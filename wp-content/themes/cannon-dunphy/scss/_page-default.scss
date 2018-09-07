@@ -3,15 +3,55 @@
 	height:auto;
 	background: url(#{$themePath}images/intl_styleguide_img.jpg) top left;
 	background-size:cover;
-	padding:82px 0 71px;
+}
+
+body:not(.page-template-default) {
+	.internal_title_wrapper {
+		background: #f1f1f1;
+	}
+	.internal_title_inner {
+		text-align: center;
+		display: block;
+		padding:105px 0 0;
+		h1 {
+			color:$blue;
+			font-size:95px;
+			display: block;
+			padding:0;
+		}
+		span.internal_dots {
+			display: block;
+			margin-top:40px;
+			&:before {
+				content:"";
+				width:6px;
+				height:6px;
+				background:$red;
+				border-radius: 50%;
+				display: inline-block;
+				margin-right:5px;
+			}
+			&:after {
+				content:"";
+				width:6px;
+				height:6px;
+				background:$red;
+				border-radius: 50%;
+				display: inline-block;
+				margin-left:5px;
+			}
+		}
+	}
 }
 
 .internal_title_inner {
 	max-width:1795px;
-	padding-left:70px;
-	padding-right:70px;
+	padding:82px 70px;
 	margin:0 auto;
 	display: flex;
+	align-items: center;
+	height:100%;
+	min-height:312px;
 	h1 {
 		font-family:$frankruhl;
 		font-weight:400;
@@ -21,6 +61,7 @@
 		line-height: 80px;
 		padding-right:7%;
 		flex-grow: 1;
+		display: block;
 // 		max-width:958px;
 	}
 	.spacer {
@@ -46,7 +87,7 @@
 	flex-grow:1;
 	margin-top:90px;
 	padding-right:7%;
-	p:first-of-type:first-letter {
+	> p:first-of-type:first-letter {
     	font-size: 55px;
 			font-family: $frankruhl;
 			font-weight: 700;
@@ -283,6 +324,30 @@
 	}
 	
 	
+	body:not(.page-template-default) {
+	.internal_title_wrapper {
+		
+	}
+	.internal_title_inner {
+		padding: 51px 0 0px;
+		min-height: 189px;
+		h1 {
+			font-size:63px;
+		}
+		span.internal_dots {
+			margin-top: 2px;
+			&:before {
+				
+			}
+			&:after {
+				
+			}
+		}
+	}
+}
+
+	
+	
 	
 	
 } /* Media Query */
@@ -294,11 +359,13 @@
 	
 	
 	.internal_title_wrapper {
-		padding: 59px 0 71px;
+		//padding: 59px 0 71px;
+		
 	}
 		
 	.internal_title_inner {
-		
+		min-height: 179px;
+		padding: 54px 70px;
 		h1 {
 			padding-right:0;
 			font-size:63px;
@@ -358,13 +425,13 @@
 	}
 	
 	.internal_title_wrapper {
-		padding:37px 0;
+		//padding:37px 0;
 		margin-top: 71px;
 	}
 	
 	.internal_title_inner {
-		padding-left:42px;
-		padding-right:42px;
+	  min-height: 115px;
+		padding: 36px 42px;
 		h1 {
 			font-size:35px;
 			line-height: 34px;

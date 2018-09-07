@@ -787,6 +787,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/page-padirectory.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-padirectory.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -853,6 +860,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_page-default.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_page-pa-directory.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_page-pa-directory.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

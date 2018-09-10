@@ -787,13 +787,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/page-padirectory.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-padirectory.php",
-		"oF": 0
-		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -847,6 +840,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_page-attbio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_page-attbio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -975,6 +981,13 @@
 		"oAP": "\/search.php",
 		"oF": 0
 		},
+	"\/sidebar-att.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-att.php",
+		"oF": 0
+		},
 	"\/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1044,11 +1057,25 @@
 		"oAP": "\/style.css.map",
 		"oF": 0
 		},
+	"\/template-bio.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-bio.php",
+		"oF": 0
+		},
 	"\/template-home.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-home.php",
+		"oF": 0
+		},
+	"\/template-padirectory.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-padirectory.php",
 		"oF": 0
 		}
 	},

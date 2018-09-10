@@ -319,6 +319,10 @@ body:not(.page-template-default) {
 
 @media screen and (max-width: 1250px) {
 	
+	
+
+	
+	
 	.internal_title_wrapper {
 		margin-top: 93px;
 	}
@@ -445,6 +449,30 @@ body:not(.page-template-default) {
 	.container {
 		margin-top: 47px;
 	}
+	
+	
+	body:not(.page-template-default) {
+	.internal_title_wrapper {
+		
+	}
+	.internal_title_inner {
+		padding: 41px 0 0px;
+		min-height: 127px;
+		h1 {
+			font-size:35px;
+		}
+		span.internal_dots {
+			
+			&:before {
+				
+			}
+			&:after {
+				
+			}
+		}
+	}
+}
+
 	
 	
 	

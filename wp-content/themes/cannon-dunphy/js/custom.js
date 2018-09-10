@@ -257,6 +257,44 @@ $('.sec_three_slider').slick({
    }
 	]
  });
+ 
+ 
+ 
+ 
+ $('.accolade_slider').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+	arrows:true,
+	prevArrow:".acco_arrow_left",
+	nextArrow:".acco_arrow_right",
+	responsive: [
+    {
+      breakpoint: 1450,
+      settings: {
+      slidesToShow: 3,
+      slidesToScroll: 3,
+     }
+   },
+   {
+      breakpoint: 1100,
+      settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      dots:true
+     }
+   },
+   {
+      breakpoint: 767,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots:true,
+     }
+   }
+	]
+ });
+
 
 
 

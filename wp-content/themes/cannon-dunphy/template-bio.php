@@ -38,6 +38,62 @@ get_header(); ?>
 							<p>Judge Robert C. Cannon. (Father) Admitted to Wisconsin Bar, 1941. Milwaukee County Civil and Circuit Court Judge, successfully re-elected 1945-79; first Presiding Judge, Wisconsin Court of Appeals, 1979-82. Legal Advisor To Major League Baseball Players Association.</p>
 
 							<p>Kelly Gildea Cannon (great granddaughter of Raymond J. Cannon and daughter of William M. Cannon) is a graduate of Loyola University Chicago School of Law (J. D.) In Chicago, Illinois. She is licensed to practice law in Illinois and New York. She also has received her Masters of Law (LLM) in International Dispute Resolution at Kings College in London, England.</p>
+							
+							<div class="accolades_wrapper">
+								
+								<span class="accolades_title">Accolades</span><!-- accolades_title -->
+								
+								<div class="accolade_inner">
+								
+									<div class="acco_arrow acco_arrow_left">
+									
+										<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/arrows.svg"); ?>
+									
+									</div><!-- _arrow_left -->
+									
+									<div class="accolade_slider">
+										
+										<div class="accolade_single_slide">
+											
+											<img src="<?php bloginfo('template_directory');?>/images/content1_logo_01.png"/>
+											
+										</div><!-- accolade_single_slide -->
+										
+										<div class="accolade_single_slide">
+											
+											<img src="<?php bloginfo('template_directory');?>/images/content1_logo_01.png"/>
+											
+										</div><!-- accolade_single_slide -->
+										
+										<div class="accolade_single_slide">
+											
+											<img src="<?php bloginfo('template_directory');?>/images/content1_logo_01.png"/>
+											
+										</div><!-- accolade_single_slide -->
+										
+										<div class="accolade_single_slide">
+											
+											<img src="<?php bloginfo('template_directory');?>/images/content1_logo_01.png"/>
+											
+										</div><!-- accolade_single_slide -->
+										
+										<div class="accolade_single_slide">
+											
+											<img src="<?php bloginfo('template_directory');?>/images/content1_logo_01.png"/>
+											
+										</div><!-- accolade_single_slide -->
+										
+									</div><!-- accolade_slider -->
+									
+									<div class="acco_arrow acco_arrow_right">
+									
+										<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/arrows.svg"); ?>
+									
+									</div><!-- _arrow_left -->
+								
+								</div><!-- accolade_inner -->
+								
+							</div><!-- accolades_wrapper -->
 		
 		</div><!-- container -->
 		

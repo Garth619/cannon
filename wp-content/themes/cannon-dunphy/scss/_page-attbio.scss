@@ -1,11 +1,15 @@
 .att_col {
-	display: flex;
 	max-width:1592px;
-	margin:0 auto;
+	margin:0 auto 260px;
 	justify-content: space-between;
 	padding-left:70px;
 	padding-right:70px;
 	position: relative;
+	&:after {
+		content:"";
+		display: block;
+		clear:both;
+	}
 }
 
 
@@ -14,6 +18,8 @@ body.page-template-template-bio {
 	.container {
 		padding-right:0;
 		padding-left:14%;
+		width:calc(100% - 355px);
+		float:right;
 	}
 	.internal_title_inner {
 		display: flex;
@@ -53,9 +59,9 @@ body.page-template-template-bio {
 
 
 .att_sidebar {
-	flex-basis: 355px;
-	flex-shrink: 0;
+	width: 355px;
 	margin-top:-185px;
+	float:left;
 }
 
 
@@ -83,35 +89,106 @@ body.page-template-template-bio {
 
 
 .att_bio_list_wrapper {
-	span.att_bio_list_title {
-		text-transform: uppercase;
-		font-size:17px;
-		font-family:$worksans;
-		font-weight:800;
-		letter-spacing: 0.1em;
-		display: block;
-		margin:28px 0 0;
+	.att_bio_list {
+		&:first-of-type {
+			span.att_bio_list_title {
+				margin:28px 0 0;
+			}
+			ul {
+				li {
+					&:before {
+						background:$lightblue;
+					}
+				}
+			}
+		}
+		span.att_bio_list_title {
+			text-transform: uppercase;
+			font-size:17px;
+			font-family:$worksans;
+			font-weight:800;
+			letter-spacing: 0.1em;
+			display: block;
+			margin:35px 0 0;
+		}
+		ul {
+			list-style: none;
+			margin-top:20px;
+			li {
+				font-family: $frankruhl;
+				position: relative;
+				padding-left:30px;
+				font-size: 18px;
+				line-height: 24px;
+				margin-bottom:6px;
+				&:before {
+					content:"";
+					width:5px;
+					height:5px;
+					display: block;
+					background:$red;
+					border-radius: 50%;
+					position: absolute;
+					top:7px;
+					left:0;
+				}
+				ul {
+					margin-top:10px;
+				}
+			}
+		}
 	}
-	ul {
-		list-style: none;
-		margin-top:39px;
-		li {
-			font-family: $frankruhl;
-			position: relative;
-			padding-left:30px;
-			font-size: 18px;
-			line-height: 24px;
-			margin-bottom:6px;
-			&:before {
-				content:"";
-				width:5px;
-				height:5px;
-				display: block;
-				background: $lightblue;
-				border-radius: 50%;
-				position: absolute;
-				top:7px;
-				left:0;
+}
+
+
+.accolades_wrapper {
+	padding-top:60px;
+	max-width:100%;
+	span.accolades_title {
+		border-top:4px solid $red;
+		display: block;
+		text-transform: uppercase;
+		font-family: $worksans;
+		font-weight: 800;
+		letter-spacing: 0.1em;
+		padding-top:22px;
+	}
+	.accolade_inner {
+		display: flex;
+		align-items: center;
+		margin:45px 0 0;
+		.acco_arrow {
+			width:22px;
+			cursor: pointer;
+			&:hover {
+				svg {
+					fill:$lightblue;
+				}
+			}
+			svg {
+				width:22px;
+				height:22px;
+				fill:$red;
+				transition: all 200ms ease-in-out;
+			}
+		}
+		.acco_arrow_left {
+			
+			svg {
+				transform: rotate(180deg);
+			}
+		}
+		.acco_arrow_right {
+			
+		}
+		.accolade_slider {
+			width:calc(100% - 60px);
+			
+			.accolade_single_slide {
+				img {
+					margin:0 auto;
+					height:112px;
+				}
 			}
 		}
 	}

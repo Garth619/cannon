@@ -39,11 +39,13 @@ body.page-template-template-bio {
 			font-size:18px;
 			display: block;
 			margin-top:22px;
+			padding-bottom: 80px;
 		}
 		.att_spacer {
 			flex-basis: 342px;
 			flex-shrink:0;
-			height:1px
+			height:auto;
+			position: relative;
 		}
 	}
 }
@@ -53,8 +55,41 @@ body.page-template-template-bio {
 .att_sidebar {
 	flex-basis: 342px;
 	flex-shrink: 0;
+	margin-top:-185px;
 }
 
+
+ 
+
 .att_sidebar_img_wrapper {
-	margin-top:-185px;
+	position: relative;
+	border-bottom:4px solid $red;
+	padding-bottom:60px;
+	&:after {
+		content:"";
+		width:90%;
+		height:270px;
+		display:block;
+		background: $blue;
+		position: absolute;
+		top:185px;
+		right:0;
+		z-index:-1;
+	}
+	img {
+		display: block;
+	}
+}
+
+
+.att_bio_list_wrapper {
+	span.att_bio_list_title {
+		text-transform: uppercase;
+		font-size:17px;
+		font-family:$worksans;
+		font-weight:800;
+		letter-spacing: 0.1em;
+		display: block;
+		margin:28px 0 0;
+	}
 }

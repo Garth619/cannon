@@ -9,7 +9,9 @@ get_header(); ?>
 	
 	<div class="internal_title_inner">
 		
-		<div class="att_spacer"></div><!-- att_spacer -->
+		<div class="att_spacer">
+			
+		</div><!-- att_spacer -->
 		
 		<div class="att_title_wrapper">
 			
@@ -25,13 +27,8 @@ get_header(); ?>
 
 <div class="internal_main att_col">
 	
-		
-		<div class="att_sidebar">
+		<?php get_sidebar('att'); ?>
 			
-			<?php get_sidebar('att'); ?>
-			
-		</div><!-- att_sidebar -->
-		
 		<div class="container content">
 		
 					    <p>Attorney William M. Cannon is a member of one of Wisconsin's best-known and most prominent legal families extending over four generations of lawyers, beginning with his grandfather's admission to the Wisconsin Bar. This four-generation legal family has practiced continuously in Milwaukee and other communities throughout Wisconsin for over 100 years. Mr. Cannon has won more $10 million paid verdicts and settlements for his clients than any other lawyer in Wisconsin. His cases have been featured on the CBS program "60 Minutes" and the "ABC Evening National News". He has continuously been listed in The Best Lawyers in America for Over 25 consecutive years.</p>

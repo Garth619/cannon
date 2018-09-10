@@ -42,7 +42,7 @@ body.page-template-template-bio {
 			padding-bottom: 80px;
 		}
 		.att_spacer {
-			flex-basis: 342px;
+			flex-basis: 355px;
 			flex-shrink:0;
 			height:auto;
 			position: relative;
@@ -53,7 +53,7 @@ body.page-template-template-bio {
 
 
 .att_sidebar {
-	flex-basis: 342px;
+	flex-basis: 355px;
 	flex-shrink: 0;
 	margin-top:-185px;
 }
@@ -91,5 +91,28 @@ body.page-template-template-bio {
 		letter-spacing: 0.1em;
 		display: block;
 		margin:28px 0 0;
+	}
+	ul {
+		list-style: none;
+		margin-top:39px;
+		li {
+			font-family: $frankruhl;
+			position: relative;
+			padding-left:30px;
+			font-size: 18px;
+			line-height: 24px;
+			margin-bottom:6px;
+			&:before {
+				content:"";
+				width:5px;
+				height:5px;
+				display: block;
+				background: $lightblue;
+				border-radius: 50%;
+				position: absolute;
+				top:7px;
+				left:0;
+			}
+		}
 	}
 }

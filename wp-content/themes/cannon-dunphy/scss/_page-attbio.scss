@@ -84,6 +84,8 @@ body.page-template-template-bio {
 	}
 	img {
 		display: block;
+		max-width:100%;
+		height:auto;
 	}
 }
 
@@ -193,3 +195,141 @@ body.page-template-template-bio {
 		}
 	}
 }
+
+.mobile_att_image_wrapper {
+	display: none;
+}
+
+
+@media screen and (max-width: 1550px) {
+	
+	
+	body.page-template-template-bio {
+		.internal_title_inner  {
+			.att_title_wrapper {
+				padding-left:8%;
+			}
+		}
+		.container {
+			padding-left:8%;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1410px) {
+	
+	
+	
+	
+	body.page-template-template-bio {
+		.internal_title_inner {
+			.att_title_wrapper {
+				padding-left:4%;
+			}
+		}
+		.container {
+			padding-left:4%;
+			margin-top: 55px;
+		}
+	} 
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1399px) {
+	
+	
+	
+	body.page-template-template-bio {
+		.internal_title_inner  {
+    	padding-bottom: 154px;
+			.att_title_wrapper {
+				padding-left:0%;
+				margin-left:auto;
+				margin-right:auto;
+				text-align: center;
+				padding-top: 57px;
+			}
+			span.att_postion {
+				font-size:16px;
+				margin-top: 0px;
+			}
+			.att_spacer {
+				display: none;
+			}
+		}
+		.container {
+			padding-left:0%;
+			width:100%;
+			order:2;
+		}
+	}
+	
+	.att_col {
+		display: flex;
+		flex-direction: column;
+		max-width: 1162px;
+		margin: 0 auto 145px;
+	}
+	
+	
+	.mobile_att_image_wrapper {
+		order:1;
+		width:350px;
+		margin:-183px auto 50px;
+		position: relative;
+		display: block;
+		&:after {
+			content:"";
+			width:90%;
+			height:275px;
+			display: block;
+			background: $blue;
+			position: absolute;
+			top:183px;
+			right:0;
+			z-index:-1;
+		}
+		img {
+			display: block;
+		}
+	}
+	
+	
+	.att_sidebar {
+		width:100%;
+		order:3;
+		margin-top:0;
+	}
+	
+	
+	.att_sidebar_img_wrapper {
+		display: none;
+	}
+	
+	
+	.accolades_wrapper {
+    padding-top: 40px;
+    .accolade_inner {
+			margin-top:60px;
+		}
+	}
+	
+	.att_bio_list_wrapper {
+		border-top:4px solid $red;
+		margin-top:105px;
+		
+	}
+	
+	
+	
+	
+} /* Media Query */

@@ -270,18 +270,10 @@ $('.sec_three_slider').slick({
 	nextArrow:".acco_arrow_right",
 	responsive: [
     {
-      breakpoint: 1450,
+      breakpoint: 1150,
       settings: {
       slidesToShow: 3,
       slidesToScroll: 3,
-     }
-   },
-   {
-      breakpoint: 1100,
-      settings: {
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      dots:true
      }
    },
    {

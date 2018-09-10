@@ -473,6 +473,15 @@ body:not(.page-template-default) {
 	}
 }
 
+
+.container {
+	
+	> p:first-of-type:first-letter {
+    	
+			padding: 20px 9px 0 0;
+		}
+}
+
 	
 	
 	

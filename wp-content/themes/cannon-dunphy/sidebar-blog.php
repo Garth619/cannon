@@ -1,4 +1,13 @@
 
+
+<div class="blog_sidebar_wrapper">
+	
+	
+	
+	
+</div><!-- blog_sidebar_wrapper -->
+
+
 	<?php // dynamic_sidebar( 'sidebar' ); ?>
 			
 	<?php // dynamic_sidebar( 'category_sidebar' ); ?>

@@ -870,6 +870,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_page-blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_page-blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_page-default.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1027,18 +1040,18 @@
 		"oAP": "\/sidebar-att.php",
 		"oF": 0
 		},
+	"\/sidebar-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-blog.php",
+		"oF": 0
+		},
 	"\/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar.php",
-		"oF": 0
-		},
-	"\/sidebar_blog.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/sidebar_blog.php",
 		"oF": 0
 		},
 	"\/single.php": {

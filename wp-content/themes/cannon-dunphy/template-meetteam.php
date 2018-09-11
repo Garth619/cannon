@@ -22,176 +22,57 @@ get_header(); ?>
 	
 	<div class="meet_attorney_wrapper">
 		
-		<div class="single_attorney_wrapper">
-			
-			<a href="">
-			
-				<div class="attorney_image_wrapper">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/AP_img_WilliamCannon.jpg"/>
-				
-					<div class="att_img_overlay"></div><!-- att_img_overlay -->
-				
-				</div><!-- attorney_image_wrapper -->
-			
-				<span class="att_title">William M. Cannon</span><!-- att_title -->
-			
-				<span class="att_position">Founder</span><!-- att_position -->
-			
-			</a>
-			
-		</div><!-- single_attorney_wrapper -->
 		
-		<div class="single_attorney_wrapper">
-			
-			<a href="">
-			
-				<div class="attorney_image_wrapper">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/AP_img_WilliamCannon.jpg"/>
-				
-					<div class="att_img_overlay"></div><!-- att_img_overlay -->
-				
-				</div><!-- attorney_image_wrapper -->
-			
-				<span class="att_title">William M. Cannon</span><!-- att_title -->
-			
-				<span class="att_position">Founder</span><!-- att_position -->
-			
-			</a>
-			
-		</div><!-- single_attorney_wrapper -->
 		
-		<div class="single_attorney_wrapper">
-			
-			<a href="">
-			
-				<div class="attorney_image_wrapper">
+		<?php if(get_field('attorney_directory')): ?>
+		 
+			<?php while(has_sub_field('attorney_directory')): ?>
+		 
+				<?php $post_object = get_sub_field( 'attorney_page_info' ); ?>
+					
+					<?php if ( $post_object ): ?>
+					
+					<?php $post = $post_object; ?>
+					
+					<?php setup_postdata( $post ); ?> 
 				
-					<img src="<?php bloginfo('template_directory');?>/images/AP_img_WilliamCannon.jpg"/>
+						<div class="single_attorney_wrapper">
+			
+							<a href="<?php the_permalink();?>">
+			
+							<div class="attorney_image_wrapper">
 				
-					<div class="att_img_overlay"></div><!-- att_img_overlay -->
+								<?php $attorney_image = get_field( 'attorney_image' ); ?>
 				
-				</div><!-- attorney_image_wrapper -->
-			
-				<span class="att_title">William M. Cannon</span><!-- att_title -->
-			
-				<span class="att_position">Founder</span><!-- att_position -->
-			
-			</a>
-			
-		</div><!-- single_attorney_wrapper -->
-		
-		<div class="single_attorney_wrapper">
-			
-			<a href="">
-			
-				<div class="attorney_image_wrapper">
+								<?php if ( $attorney_image ) { ?>
 				
-					<img src="<?php bloginfo('template_directory');?>/images/AP_img_WilliamCannon.jpg"/>
+									<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+
+								<?php } ?>
 				
-					<div class="att_img_overlay"></div><!-- att_img_overlay -->
+								<div class="att_img_overlay"></div><!-- att_img_overlay -->
 				
-				</div><!-- attorney_image_wrapper -->
+						</div><!-- attorney_image_wrapper -->
 			
-				<span class="att_title">William M. Cannon</span><!-- att_title -->
+						<span class="att_title"><?php the_title();?></span><!-- att_title -->
 			
-				<span class="att_position">Founder</span><!-- att_position -->
+						<span class="att_position"><?php the_sub_field( 'attorney_position' ); ?></span><!-- att_position -->
 			
-			</a>
+						</a>
 			
-		</div><!-- single_attorney_wrapper -->
-		
-		<div class="single_attorney_wrapper">
-			
-			<a href="">
-			
-				<div class="attorney_image_wrapper">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/AP_img_WilliamCannon.jpg"/>
-				
-					<div class="att_img_overlay"></div><!-- att_img_overlay -->
-				
-				</div><!-- attorney_image_wrapper -->
-			
-				<span class="att_title">William M. Cannon</span><!-- att_title -->
-			
-				<span class="att_position">Founder</span><!-- att_position -->
-			
-			</a>
-			
-		</div><!-- single_attorney_wrapper -->
-		
-		<div class="single_attorney_wrapper">
-			
-			<a href="">
-			
-				<div class="attorney_image_wrapper">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/AP_img_WilliamCannon.jpg"/>
-				
-					<div class="att_img_overlay"></div><!-- att_img_overlay -->
-				
-				</div><!-- attorney_image_wrapper -->
-			
-				<span class="att_title">William M. Cannon</span><!-- att_title -->
-			
-				<span class="att_position">Founder</span><!-- att_position -->
-			
-			</a>
-			
-		</div><!-- single_attorney_wrapper -->
-		
-		<div class="single_attorney_wrapper">
-			
-			<a href="">
-			
-				<div class="attorney_image_wrapper">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/AP_img_WilliamCannon.jpg"/>
-				
-					<div class="att_img_overlay"></div><!-- att_img_overlay -->
-				
-				</div><!-- attorney_image_wrapper -->
-			
-				<span class="att_title">William M. Cannon</span><!-- att_title -->
-			
-				<span class="att_position">Founder</span><!-- att_position -->
-			
-			</a>
-			
-		</div><!-- single_attorney_wrapper -->
-		
-		<div class="single_attorney_wrapper">
-			
-			<a href="">
-			
-				<div class="attorney_image_wrapper">
-				
-					<img src="<?php bloginfo('template_directory');?>/images/AP_img_WilliamCannon.jpg"/>
-				
-					<div class="att_img_overlay"></div><!-- att_img_overlay -->
-				
-				</div><!-- attorney_image_wrapper -->
-			
-				<span class="att_title">William M. Cannon</span><!-- att_title -->
-			
-				<span class="att_position">Founder</span><!-- att_position -->
-			
-			</a>
-			
-		</div><!-- single_attorney_wrapper -->
-		
-	</div><!-- meet_attorney_wrapper -->
+						</div><!-- single_attorney_wrapper -->
+
+						<?php wp_reset_postdata(); ?>
 	
+						<?php endif; ?>
+		    
+						<?php endwhile; ?>
+		 
+					<?php endif; ?>		
 		
-</div><!-- internal_main -->
-
-
-
-
+				</div><!-- meet_attorney_wrapper -->
 	
-
+			</div><!-- internal_main -->
 
 
 <?php get_footer(); ?>

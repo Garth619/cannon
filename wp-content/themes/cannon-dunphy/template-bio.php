@@ -40,6 +40,8 @@ get_header(); ?>
 		<div class="container content">
 			
 					 <?php get_template_part( 'loop', 'page' ); ?>
+					 
+					 	<?php if(get_field('accolades_logos')): ?>
 							
 							<div class="accolades_wrapper">
 								
@@ -55,7 +57,7 @@ get_header(); ?>
 									
 									<div class="accolade_slider">
 										
-										<?php if(get_field('accolades_logos')): ?>
+										
 										 
 											<?php while(has_sub_field('accolades_logos')): ?>
 											
@@ -69,7 +71,7 @@ get_header(); ?>
 												
 											<?php endwhile; ?>
 										 
-										<?php endif; ?>
+										
 
 									</div><!-- accolade_slider -->
 									
@@ -82,6 +84,8 @@ get_header(); ?>
 								</div><!-- accolade_inner -->
 								
 							</div><!-- accolades_wrapper -->
+							
+							<?php endif; ?>
 		
 		</div><!-- container -->
 		

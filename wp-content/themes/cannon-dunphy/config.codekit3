@@ -870,6 +870,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_page-meetteam.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_page-meetteam.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_page-pa-directory.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1069,6 +1082,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-home.php",
+		"oF": 0
+		},
+	"\/template-meetteam.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-meetteam.php",
 		"oF": 0
 		},
 	"\/template-padirectory.php": {

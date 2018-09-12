@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "271E4240-F100-466B-B4E1-6531564ED1BD"
+		"uuidString": "0B1E0228-AEBE-4C7F-B24E-82D3CBC6E9B5"
 		}
 	],
 "creatorBuild": "26680",
@@ -74,7 +74,7 @@
 		},
 	"\/images\/AP_img_AlFoeckler.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 27074,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_AlFoeckler.jpg",
@@ -85,7 +85,7 @@
 		},
 	"\/images\/AP_img_BrettEckstein.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 25290,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_BrettEckstein.jpg",
@@ -96,7 +96,7 @@
 		},
 	"\/images\/AP_img_EdwardRobinson.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 27941,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_EdwardRobinson.jpg",
@@ -107,7 +107,7 @@
 		},
 	"\/images\/AP_img_JoshMinon.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 25019,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_JoshMinon.jpg",
@@ -118,7 +118,7 @@
 		},
 	"\/images\/AP_img_MichaelCeriak.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 26004,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_MichaelCeriak.jpg",
@@ -129,7 +129,7 @@
 		},
 	"\/images\/AP_img_PatrickDunphy.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 27360,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_PatrickDunphy.jpg",
@@ -140,7 +140,7 @@
 		},
 	"\/images\/AP_img_RachelPotter.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 23196,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_RachelPotter.jpg",
@@ -151,7 +151,7 @@
 		},
 	"\/images\/AP_img_RobertCrivello.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 27610,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_RobertCrivello.jpg",
@@ -162,7 +162,7 @@
 		},
 	"\/images\/AP_img_SarahKass.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 27206,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_SarahKass.jpg",
@@ -173,7 +173,7 @@
 		},
 	"\/images\/AP_img_WilliamCannon.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 26609,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/AP_img_WilliamCannon.jpg",
@@ -204,7 +204,7 @@
 		},
 	"\/images\/content1_img_desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 89147,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content1_img_desktop.jpg",
@@ -215,7 +215,7 @@
 		},
 	"\/images\/content1_img_laptop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 65040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content1_img_laptop.jpg",
@@ -226,7 +226,7 @@
 		},
 	"\/images\/content1_logo_01.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 9562,
 		"oA": 0,
 		"oAP": "\/images\/content1_logo_01.png",
 		"oF": 0,
@@ -237,7 +237,7 @@
 		},
 	"\/images\/content1_logo_02.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 4730,
 		"oA": 0,
 		"oAP": "\/images\/content1_logo_02.png",
 		"oF": 0,
@@ -248,7 +248,7 @@
 		},
 	"\/images\/content1_logo_03.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 4533,
 		"oA": 0,
 		"oAP": "\/images\/content1_logo_03.png",
 		"oF": 0,
@@ -259,7 +259,7 @@
 		},
 	"\/images\/content1_logo_04.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 7106,
 		"oA": 0,
 		"oAP": "\/images\/content1_logo_04.png",
 		"oF": 0,
@@ -270,7 +270,7 @@
 		},
 	"\/images\/content1_logo_05.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 6006,
 		"oA": 0,
 		"oAP": "\/images\/content1_logo_05.png",
 		"oF": 0,
@@ -281,7 +281,7 @@
 		},
 	"\/images\/content1_logo_06.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 7962,
 		"oA": 0,
 		"oAP": "\/images\/content1_logo_06.png",
 		"oF": 0,
@@ -352,7 +352,7 @@
 		},
 	"\/images\/footer_img_desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 127088,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/footer_img_desktop.jpg",
@@ -363,7 +363,7 @@
 		},
 	"\/images\/footer_img_laptop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 127088,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/footer_img_laptop.jpg",
@@ -395,7 +395,7 @@
 		},
 	"\/images\/hero_img_laptop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 70790,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_laptop.jpg",
@@ -406,7 +406,7 @@
 		},
 	"\/images\/hero_img_monile.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 41501,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_monile.jpg",
@@ -417,13 +417,13 @@
 		},
 	"\/images\/hero_img_tablet.jpg": {
 		"ft": 16384,
-		"iS": 13618782,
+		"iS": 123495,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero_logo_horizontal.svg": {
@@ -448,123 +448,123 @@
 		},
 	"\/images\/intl_about_img.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 79397,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_about_img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_styleguide_img.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 122921,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_styleguide_img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_01.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 21923,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_02.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 39214,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_03.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 29833,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_04.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 22498,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_05.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 30261,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_06.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 30926,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_07.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 44862,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_08.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 45995,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/intl_video_img_09.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 31697,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/intl_video_img_09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/PA_Icon_01.svg": {
@@ -679,24 +679,24 @@
 		},
 	"\/images\/test_img_desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 119715,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/test_img_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/test_img_laptop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 119715,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/test_img_laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/index.php": {
@@ -1150,10 +1150,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 556584082,
+	"creationDate": 558414610,
 	"displayValue": "cannon-dunphy",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray",
+	"iconImageName": "meme-ive",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

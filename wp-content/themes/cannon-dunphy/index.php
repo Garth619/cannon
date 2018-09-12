@@ -34,14 +34,5 @@
 </div><!-- internal_main -->
 
 
-		
-	
-		
-
-
-
-
-
-
 
 <?php get_footer(); ?>

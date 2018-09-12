@@ -87,3 +87,201 @@ span.about_small_header {
 		letter-spacing: 0.08em;
 	}
 }
+
+
+@media screen and (max-width: 1650px) {
+	
+	.about_content {
+		padding-right:8%;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	
+.about_inner_left {
+	h1 {
+		font-size:90px;
+	}
+}
+
+
+.about_sidebar {
+	
+}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1385px) {
+	
+	
+	
+.about_inner_left {
+	h1 {
+		font-size:80px;
+	}
+}
+
+span.about_small_header {
+	font-size:14px;
+	padding-bottom: 14px;
+}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1310px) {
+	
+	
+	.about_two_col {
+		flex-direction: column;
+	}
+	
+	
+	.about_content {
+		padding-right:0;
+		order:2;
+	}
+	
+	.about_sidebar {
+		order:1;
+		margin-top:0;
+		img {
+			max-width: 540px;
+			margin:0 auto;
+		}
+		span.about_image_intro {
+			margin:0 auto 75px;
+			text-align: center;
+			max-width: 790px;
+			
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	
+	
+	.about_two_col {
+		margin: 50px auto 100px;
+	}
+	
+	.about_internal_wrapper {
+		padding: 79px 0 171px;
+	}
+	
+	.about_internal_inner {
+		padding: 79px 0 71px;
+	}
+	
+	    
+	
+	
+.about_inner_left {
+	text-align: center;
+	h1 {
+		font-size:63px;
+	}
+}
+
+span.about_small_header {
+	font-size:16px;
+}
+
+.about_sidebar {
+	margin-top: -230px;
+	 span.about_image_intro {
+		 max-width: 770px;
+		 margin-top:75px;
+		
+	 }
+}
+
+
+
+    
+
+    
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	.about_internal_wrapper {
+		padding: 71px 0 147px;
+	}
+	
+	
+	.about_internal_inner {
+		padding: 38px 0 71px;
+	}
+	
+	    
+	.about_inner_left {
+		display: flex;
+		flex-direction: column;
+		h1 {
+			font-size:35px;
+			order:1;
+			margin-top:0;
+		}
+		span.about_small_header {
+			border:none;
+			padding-bottom:0;
+			order:2;
+			font-size:14px;
+			max-width: 320px;
+			margin:8px auto 0;
+			line-height: 16px;
+		}
+	}
+	
+	
+.about_two_col {
+	padding-left:40px;
+	padding-right:40px;
+}
+
+
+
+.about_sidebar {
+	img {
+			
+	}
+	span.about_image_intro {
+		font-size:27px;		
+		line-height: 32px;
+		padding-top: 35px;
+		margin-bottom:49px;
+		margin-top: 61px;
+	}
+}
+
+
+.about_two_col {
+	margin: 50px auto;
+}
+
+
+	
+	
+} /* Media Query */

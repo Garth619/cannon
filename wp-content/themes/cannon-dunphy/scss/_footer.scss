@@ -259,6 +259,22 @@ footer {
 		}
 		a.social {
 			text-decoration: none;
+			&:hover {
+				svg {
+					.st0, .st1 {
+						fill:$lightblue;
+					}
+				}
+			}
+			svg {
+				.st0,.st1 {
+					fill:$blue;
+					transition: all 200ms ease-in-out;
+				}
+				.st2{
+					fill:#FFFFFF;
+				}
+			}
 		}
 	}
 }

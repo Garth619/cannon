@@ -417,7 +417,7 @@
 		},
 	"\/images\/hero_img_tablet.jpg": {
 		"ft": 16384,
-		"iS": 123495,
+		"iS": 13618782,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero_img_tablet.jpg",
@@ -883,6 +883,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_page-contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_page-contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_page-default.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1114,6 +1127,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-bio.php",
+		"oF": 0
+		},
+	"\/template-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-contact.php",
 		"oF": 0
 		},
 	"\/template-home.php": {

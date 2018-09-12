@@ -857,6 +857,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_page-about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_page-about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_page-attbio.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1120,6 +1133,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/style.css.map",
+		"oF": 0
+		},
+	"\/template-about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-about.php",
 		"oF": 0
 		},
 	"\/template-bio.php": {

@@ -73,7 +73,7 @@
 				
 				</div><!-- flex_wrapper -->
 				
-				<a class="phone" href="tel:(855) 531-987">(855) 531-9875</a><!-- phone -->
+				<a class="phone" href="tel:<?php the_field( 'phone','options'); ?>"><?php the_field( 'phone','options'); ?></a><!-- phone -->
 			
 			</div><!-- call_wrapper -->
 			

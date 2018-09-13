@@ -30,58 +30,58 @@
 			
 			<div class="location_wrapper">
 				
-				<span class="large_header">Brookfield Location</span><!-- large_header -->
+				<span class="large_header"><?php the_field( 'firm_title','option'); ?></span><!-- large_header -->
 				
-				<span class="address">595 North Barker Road<br/> Brookfield, WI 53045</span>
+				<span class="address"><?php the_field( 'firm_street_address','option'); ?></span>
 				
-				<a class="directions" href="" target="_blank">Directions</a><!-- directions -->
+				<a class="directions" href="<?php the_field( 'firm_directions_link','option'); ?>" target="_blank">Directions</a><!-- directions -->
 				
 			</div><!-- location_wrapper -->
 			
 			<div class="location_wrapper">
 				
-				<span class="large_header">Milwaukee Location</span><!-- large_header -->
+				<span class="large_header"><?php the_field( 'firm_title_two','option'); ?></span><!-- large_header -->
 				
-				<span class="address">735 North Water Street<br/> Suite 819<br/> Milwaukee, WI 53202</span>
+				<span class="address"><?php the_field( 'firm_street_address_two','option'); ?></span>
 				
-				<a class="directions" href="" target="_blank">Directions</a><!-- directions -->
+				<a class="directions" href="<?php the_field( 'firm_directions_link_two','option'); ?>" target="_blank">Directions</a><!-- directions -->
 
 				
 			</div><!-- location_wrapper -->
 			
 			<div class="location_wrapper">
 				
-				<span class="large_header">Contact Us Today</span><!-- large_header -->
+				<span class="large_header"><?php the_field( 'contact_large_header','option'); ?></span><!-- large_header -->
 				
-				<a class="phone" href="tel:(855) 254-5006" target="_blank">(855) 254-5006</a><!-- directions -->
+				<a class="phone" href="tel:<?php the_field( 'phone','options'); ?>" target="_blank"><?php the_field( 'phone','options'); ?></a><!-- directions -->
 				
 			</div><!-- location_wrapper -->
 			
 			<div class="location_wrapper">
 				
-				<a class="social" href="" target="_blank">
+				<a class="social" href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank">
 					
-					<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/footer_icon_05.svg"); ?>
+						<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/footer_icon_05.svg"); ?>
 					
-				</a><!-- footer_icon_05 -->
+					</a><!-- social -->
 				
-				<a class="social" href="" target="_blank">
+					<a class="social" href="<?php the_field( 'twitter_link','option'); ?>" target="_blank">
 					
-					<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/footer_icon_04.svg"); ?>
+						<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/footer_icon_04.svg"); ?>
 					
-				</a><!-- footer_icon_05 -->
+					</a><!-- social -->
 				
-				<a class="social" href="" target="_blank">
+					<a class="social" href="<?php the_field( 'facebook_link','option'); ?>" target="_blank">
 					
-					<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/footer_icon_03.svg"); ?>
+						<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/footer_icon_03.svg"); ?>
 					
-				</a><!-- footer_icon_05 -->
+					</a><!-- social -->
 				
-				<a class="social" href="" target="_blank">
+					<a class="social" href="<?php the_field( 'linked_in_link','option'); ?>" target="_blank">
 					
-					<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/footer_icon_02.svg"); ?>
+						<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/footer_icon_02.svg"); ?>
 					
-				</a><!-- footer_icon_05 -->
+					</a><!-- social -->
 				
 			</div><!-- location_wrapper -->
 			

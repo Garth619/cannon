@@ -357,9 +357,37 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 		var textUpdate = $(this).text();
 		
 		$('.cr_select_title span').replaceWith('<span>' + textUpdate + '</span>');
+		
+	});
+	
+	
+	
+	$('.overlay_close').on('click', function(e) {
+	  
+		$('.cr_overlay').removeClass('overlay_open');
+		
+		$('body').css("overflow-y","auto");
 	
 	});
 	
+	
+	
+	$('.single_case_results').on('click', function(e) {
+	  
+		
+		$(".overlay_data_clone").empty();
+		
+		$(this).find('.overlay_data').clone().appendTo('.overlay_data_clone').show();
+		
+		$('.cr_overlay').addClass('overlay_open');
+		
+		
+		$('body').css("overflow-y","hidden");
+	
+	});
+
+	
+
 	
 	
   

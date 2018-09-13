@@ -627,6 +627,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/select-arrow-cr.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/select-arrow-cr.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/select-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -948,6 +958,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_page-results.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_page-results.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_page-testimonials.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1147,6 +1170,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-bio.php",
+		"oF": 0
+		},
+	"\/template-caseresults.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-caseresults.php",
 		"oF": 0
 		},
 	"\/template-contact.php": {

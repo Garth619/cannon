@@ -363,11 +363,11 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 		var mydata = $(this).data('tag');
 	
 		
-		$('.case_result_types').fadeOut(300).delay(500).fadeIn();
+		$('.case_result_types').fadeOut(300).delay(500).fadeIn(400);
 		
 		$('.single_case_results').fadeOut(300);
 		
-		$('.' + mydata + '').delay(500).fadeIn();
+		$('.' + mydata + '').delay(600).fadeIn(400);
 
 
 	});

@@ -50,7 +50,7 @@ get_header(); ?>
 					 
 					endif;
 					
-					$unique = array_unique(array_merge($myarray, $arrayvalue));
+					$unique = array_unique(array_merge($myarray, $arrayvalue), SORT_REGULAR);
 					
 					sort($unique);
 					

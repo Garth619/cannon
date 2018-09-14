@@ -20,6 +20,8 @@ get_header(); ?>
 
 <div class="internal_main">
 	
+
+		
 		<div class="cr_select">
 			
 			<div class="cr_select_title">
@@ -36,20 +38,36 @@ get_header(); ?>
 			
 			<div class="cr_select_dropdown">
 				
-				<ul>
+				<?php $myarray = array();
 					
-					<?php if(get_field('case_results')): ?>
+					if(get_field('case_results')):
 					 
-						<?php while(has_sub_field('case_results')): ?>
+						while(has_sub_field('case_results')):
+									
+						 	$arrayvalue[] = get_sub_field('case_result_type');
+									
+						endwhile;
 					 
-							<li><?php the_sub_field( 'case_result_type' ); ?></li>
-					    
-						<?php endwhile; ?>
-					 
-					<?php endif; ?>
-				
-				</ul>
-				
+					endif;
+					
+					$unique = array_unique(array_merge($myarray, $arrayvalue));
+					
+					sort($unique);
+					
+					echo "<ul>";
+						
+					foreach ($unique as $value) {
+						
+						$datatag = (str_replace(' ', '-', strtolower($value))); 
+						
+						echo '<li data-tag="' . $datatag . '">' . $value . '</li>';
+					
+					}
+					
+					echo "</ul>";
+					
+				?>
+								
 			</div><!-- select_dropdown -->
 			
 		</div><!-- case_results_select -->
@@ -58,12 +76,18 @@ get_header(); ?>
 		<div class="case_result_types">
 			
 			
-			<?php if(get_field('case_results')): ?>
+			<?php 
+				
+				if(get_field('case_results')):
 			 
-				<?php while(has_sub_field('case_results')): ?>
+					while(has_sub_field('case_results')):
+				
+						$casetype = get_sub_field('case_result_type');
+						
+						$tabclass = (str_replace(' ', '-', strtolower($casetype))); ?>
 
 				
-					<div class="single_case_results">
+					<div class="single_case_results <?php echo $tabclass; ?>">
 				
 						<span class="cr_amount"><?php the_sub_field( 'amount' ); ?></span><!-- cr_amount -->
 				

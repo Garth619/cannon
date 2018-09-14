@@ -1,6 +1,7 @@
 body.page-template-template-caseresults {
 	.internal_main {
 		background:#f1f1f1;
+		min-height: 720px;
 	}
 }
 
@@ -89,13 +90,18 @@ body.page-template-template-caseresults {
 	flex-wrap: wrap;
 	flex-shrink: 0;
 	justify-content: space-between;
+	
 	&:after {
 		content:"";
 		display: block;
 		flex-basis: 30%;
 	}
+	.single_case_results.hide {
+		display:none;
+	}
 	.single_case_results {
 		text-align: center;
+		display: block;
 		padding:90px;
 		flex-basis:30%;
 		margin-bottom:15px;

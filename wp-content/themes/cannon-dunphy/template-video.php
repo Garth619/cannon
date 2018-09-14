@@ -1,6 +1,6 @@
 <?php 
 
-/* Template Name: Case Results */
+/* Template Name: Video Center */
 
 get_header(); ?>
 
@@ -26,7 +26,7 @@ get_header(); ?>
 			
 			<div class="custom_select_title">
 				
-				<span>Case Type</span>
+				<span>Video Type</span>
 			
 			</div><!-- select_title -->
 			
@@ -70,51 +70,23 @@ get_header(); ?>
 								
 			</div><!-- select_dropdown -->
 			
-		</div><!-- case_results_select -->
+		</div><!-- select -->
 		
 		
-		<div class="case_result_types">
+		<div class="videos_wrapper">
 			
 			
-			<?php 
+			<div class="single_video">
 				
-				if(get_field('case_results')):
-			 
-					while(has_sub_field('case_results')):
 				
-						$casetype = get_sub_field('case_result_type');
-						
-						$tabclass = (str_replace(' ', '-', strtolower($casetype))); ?>
-
 				
-					<div class="single_case_results <?php echo $tabclass; ?>">
-				
-						<span class="cr_amount"><?php the_sub_field( 'amount' ); ?></span><!-- cr_amount -->
-				
-						<span class="cr_decription"><?php the_sub_field( 'case_result_type' ); ?></span><!-- cr_decription -->
-				
-						<div class="overlay_data">
-				
-							<span class="overlay_amount"><?php the_sub_field( 'amount_longhand' ); ?></span><!-- overlay_amount -->
+			</div><!-- single_video -->
 		
-							<span class="overlay_type"><?php the_sub_field( 'case_result_type' ); ?></span><!-- overlay_type -->
+			
+		</div><!-- videos_wrapper -->
 		
-							<span class="overlay_description"><?php the_sub_field( 'case_result_description' ); ?></span><!-- overlay_description -->
 		
-							<span class="overlay_location"><?php the_sub_field( 'case_location' ); ?></span><!-- overlay_location -->
 				
-						</div><!-- overlay_data -->
-				
-					</div><!-- single_case_results -->
-			 
-				
-			   <?php endwhile; ?>
-			 
-			<?php endif; ?>
-
-	
-		</div><!-- case_result_types -->
-		
 </div><!-- internal_main -->
 
 <div class="cr_overlay">

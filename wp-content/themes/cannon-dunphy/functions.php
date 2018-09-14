@@ -36,11 +36,15 @@ add_action( 'wp_enqueue_scripts', 'scripts', 1 );
  function load_my_styles_scripts() {
      // Load my stylesheet
      wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 1, 'all' ); 
+     
+     wp_enqueue_style( 'lity-styles', get_template_directory_uri() . '/js/lity/dist/lity.min.css', '', 1, 'all' );
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
      
-      wp_enqueue_script( 'jquery-slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '', true );
+     wp_enqueue_script( 'jquery-slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '', true );
+     
+     wp_enqueue_script( 'jquery-lity', get_template_directory_uri() . '/js/lity/dist/lity.min.js', array('jquery'), '', true );
      
      
  }

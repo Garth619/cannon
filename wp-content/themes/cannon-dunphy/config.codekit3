@@ -736,6 +736,547 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/lity\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/.gitignore",
+		"oF": 0
+		},
+	"\/js\/lity\/.npmignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/.npmignore",
+		"oF": 0
+		},
+	"\/js\/lity\/assets\/prism.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/assets\/prism-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lity\/assets\/prism.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/assets\/prism-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/assets\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/assets\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lity\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/lity\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/lity\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/lity\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/lity\/dist\/lity.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/lity-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lity\/dist\/lity.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/lity-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/lity.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/lity.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lity\/dist\/lity.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/lity.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/facebookvideo\/facebookvideo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/facebookvideo\/facebookvideo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/facebookvideo\/facebookvideo.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/facebookvideo\/facebookvideo.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/googlemaps\/googlemaps.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/googlemaps\/googlemaps-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/googlemaps\/googlemaps.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/googlemaps\/googlemaps.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/instagram\/instagram.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/instagram\/instagram-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lity\/dist\/plugins\/instagram\/instagram.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/instagram\/instagram-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/instagram\/instagram.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/instagram\/instagram.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lity\/dist\/plugins\/instagram\/instagram.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/instagram\/instagram.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/vimeo\/vimeo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/vimeo\/vimeo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/vimeo\/vimeo.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/vimeo\/vimeo.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/youtube\/youtube.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/youtube\/youtube-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/dist\/plugins\/youtube\/youtube.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/dist\/plugins\/youtube\/youtube.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/Gruntfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/Gruntfile-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/index.html",
+		"oF": 0
+		},
+	"\/js\/lity\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/LICENSE",
+		"oF": 0
+		},
+	"\/js\/lity\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/lity\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/lity\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/lity\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/lity\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/lity\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/lity\/src\/lity.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/src\/lity-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lity\/src\/lity.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/src\/lity-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/src\/plugins\/facebookvideo\/facebookvideo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/src\/plugins\/facebookvideo\/facebookvideo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/src\/plugins\/googlemaps\/googlemaps.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/src\/plugins\/googlemaps\/googlemaps-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/src\/plugins\/instagram\/instagram.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/src\/plugins\/instagram\/instagram-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/lity\/src\/plugins\/instagram\/instagram.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/src\/plugins\/instagram\/instagram-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/src\/plugins\/vimeo\/vimeo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/src\/plugins\/vimeo\/vimeo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/src\/plugins\/youtube\/youtube.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/src\/plugins\/youtube\/youtube-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.bmp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.bmp",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.gif": {
+		"ft": 4194304,
+		"iS": 179005,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.ico",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.jpeg": {
+		"ft": 16384,
+		"iS": 86176,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.jpg": {
+		"ft": 16384,
+		"iS": 86176,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.jpg.ext": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.jpg.ext",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.png": {
+		"ft": 32768,
+		"iS": 551501,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.tif": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.tif",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.tiff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.tiff",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/img\/sample.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/img\/sample.webp",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/index.html",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/plugins\/instagram.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/plugins\/instagram.html",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/plugins\/vimeo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/plugins\/vimeo.html",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/plugins\/youtube.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/plugins\/youtube.html",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/stacked.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/stacked.html",
+		"oF": 0
+		},
+	"\/js\/lity\/test\/functional\/uri.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/lity\/test\/functional\/uri.html",
+		"oF": 0
+		},
+	"\/js\/lity\/UPGRADE-2.0.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/lity\/UPGRADE-2.0.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/lity\/vendor\/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/vendor\/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/lity\/vendor\/zepto.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lity\/vendor\/zepto-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/modernizr-webp.js": {
 		"ft": 64,
 		"ma": 0,
@@ -984,6 +1525,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_page-video.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_page-video.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1212,6 +1766,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-testimonials.php",
+		"oF": 0
+		},
+	"\/template-video.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-video.php",
 		"oF": 0
 		}
 	},

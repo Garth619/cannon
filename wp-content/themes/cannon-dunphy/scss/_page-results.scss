@@ -8,21 +8,21 @@ body.page-template-template-caseresults {
 
 
 
-.cr_select {
+.custom_select {
 	max-width:505px;
 	margin:0 auto;
 	display: flex;
 	position: relative;
 	cursor: pointer;
 	&:hover {
-		.cr_select_arrow {
+		.custom_select_arrow {
 			background: $red;
 		}
 	}	
 }
 
 
-.cr_select_title {
+.custom_select_title {
 	background:#fff;
 	border:1px #d7d7d7 solid;
 	padding:20px 35px;
@@ -38,7 +38,7 @@ body.page-template-template-caseresults {
 }
 
 
-.cr_select_arrow {
+.custom_select_arrow {
 	background:$blue;
 	flex-basis: 60px;
 	flex-shrink:0;
@@ -54,10 +54,11 @@ body.page-template-template-caseresults {
 }
 
 
-.cr_select_dropdown {
+.custom_select_dropdown {
 	position: absolute;
 	top:60px;
 	left:0;
+	z-index:1;
 	width:100%;
 	border-left:1px #d7d7d7 solid;
 	border-right:1px #d7d7d7 solid;
@@ -334,12 +335,12 @@ body.page-template-template-caseresults {
 	}
 	
 	
-	.cr_select {
+	.custom_select {
     max-width: 400px;
     position: relative;
    }
   
-  .cr_select_title {
+  .custom_select_title {
 	  padding: 16px 22px;
 	  span {
 		  font-size: 15px;
@@ -376,7 +377,7 @@ body.page-template-template-caseresults {
 }
 
 
-.cr_select_dropdown {
+.custom_select_dropdown {
    top: 50px;
    ul {
 	   padding: 9px 0;

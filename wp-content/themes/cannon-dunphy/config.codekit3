@@ -93,6 +93,13 @@
 		"oAP": "\/homepage_template_parts\/section-6.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-7.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-7.php",
+		"oF": 0
+		},
 	"\/images\/AP_img_AlFoeckler.jpg": {
 		"ft": 16384,
 		"iS": 27074,
@@ -1608,7 +1615,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/homepage\/section_five.scss": {
+	"\/scss\/homepage\/_section_five.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1616,12 +1623,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/homepage\/section_five.css",
+		"oAP": "\/scss\/homepage\/_section_five.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/homepage\/section_four.scss": {
+	"\/scss\/homepage\/_section_four.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1629,12 +1636,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/homepage\/section_four.css",
+		"oAP": "\/scss\/homepage\/_section_four.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/homepage\/section_one.scss": {
+	"\/scss\/homepage\/_section_one.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1642,12 +1649,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/homepage\/section_one.css",
+		"oAP": "\/scss\/homepage\/_section_one.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/homepage\/section_six.scss": {
+	"\/scss\/homepage\/_section_seven.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1655,12 +1662,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/homepage\/section_six.css",
+		"oAP": "\/scss\/homepage\/_section_seven.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/homepage\/section_three.scss": {
+	"\/scss\/homepage\/_section_six.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1668,12 +1675,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/homepage\/section_three.css",
+		"oAP": "\/scss\/homepage\/_section_six.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/homepage\/section_two.scss": {
+	"\/scss\/homepage\/_section_three.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1681,7 +1688,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/scss\/homepage\/section_two.css",
+		"oAP": "\/scss\/homepage\/_section_three.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/homepage\/_section_two.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/homepage\/_section_two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

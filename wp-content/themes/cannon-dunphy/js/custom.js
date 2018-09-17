@@ -285,6 +285,19 @@ $('.sec_three_slider').slick({
    }
 	]
  });
+ 
+ 
+ 
+ 
+ $('.sec_four_test_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade:true,
+	arrows:true,
+	prevArrow:".sec_four_button_left",
+	nextArrow:".sec_four_button_right",
+ });
 
 
 

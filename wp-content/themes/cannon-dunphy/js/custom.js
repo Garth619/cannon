@@ -310,17 +310,11 @@ $('.sec_three_slider').slick({
 	nextArrow:".sec_six_button_right",
 	responsive: [
     {
-      breakpoint: 1150,
-      settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
-     }
-   },
-   {
-      breakpoint: 767,
+      breakpoint: 1250,
       settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
+      adaptiveHeight: true,
      }
    }
 	]

@@ -298,6 +298,33 @@ $('.sec_three_slider').slick({
 	prevArrow:".sec_four_button_left",
 	nextArrow:".sec_four_button_right",
  });
+ 
+ 
+ 
+ $('.sec_six_slider').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+	arrows:true,
+	prevArrow:".sec_six_button_left",
+	nextArrow:".sec_six_button_right",
+	responsive: [
+    {
+      breakpoint: 1150,
+      settings: {
+      slidesToShow: 3,
+      slidesToScroll: 3,
+     }
+   },
+   {
+      breakpoint: 767,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+     }
+   }
+	]
+ });
 
 
 

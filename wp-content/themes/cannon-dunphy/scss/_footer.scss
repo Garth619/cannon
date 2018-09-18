@@ -327,6 +327,43 @@ footer {
 }
 
 
+.contact_prompt {
+	width:95px;
+	cursor: pointer;
+	background: $red;
+	position: fixed;
+	top:50%;
+	right:0;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding:35px 0;
+	transition: all 200ms ease-in-out;
+	&:hover {
+		background: $blue;
+	}
+	img {
+		
+	}
+	span {
+		color:#fff;
+		text-transform: uppercase;
+		font-size:12px;
+		line-height: 15px;
+		letter-spacing: 0.08em;
+		font-family: $worksans;
+		font-weight:800;
+		display: block;
+		margin-top:12px;
+	}
+}
+
+
+
+
+
 @media screen and (max-width: 1800px) {
 	
 	
@@ -335,7 +372,7 @@ footer {
 	}
 	
 	.copyright.desktop {
-		display: none;;
+		display: none;
 	}
 
 	

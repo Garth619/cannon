@@ -125,6 +125,36 @@
 	
 </footer>
 
+<div class="contact_prompt">
+	
+	<img src="<?php bloginfo('template_directory');?>/images/contactus_icon.svg"/>
+	
+	<span>contact<br/> us today</span>
+	
+</div><!-- contact_prompt -->
+
+<div class="contact_overlay">
+	
+	<div class="contact_overlay_inner">
+		
+		<div class="contact_overlay_close"></div><!-- overlay_close -->
+		
+		<span class="contact_request_title">request your free consultation</span><!-- footer_request_title -->
+		
+		<span class="contact_get_started_title">get started today</span><!-- get_started_title -->
+		
+		<span class="contact_required_title">* Required Field</span><!-- required_title -->
+		
+		<div class="contact_form">
+			
+			<?php gravity_form(3, false, false, false, '', true, 555); ?>
+			
+		</div><!-- form -->
+		
+	</div><!-- contact_overlay_inner -->
+	
+</div><!-- contact_overlay -->
+
 <?php wp_footer();?>
 
 

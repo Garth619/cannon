@@ -55,6 +55,7 @@
 
 a.consultation_button {
 	background: $red;
+	cursor: pointer;
 	display: inline-block;
 	color:#fff;
 	text-decoration: none;
@@ -112,6 +113,9 @@ a.consultation_button.mobile {
 		bottom:80px;
 		right:100px;
 		cursor: pointer;
+		a {
+			text-decoration: none;
+		}
 		&:hover {
 			.video_button {
 				.video_button_inner {

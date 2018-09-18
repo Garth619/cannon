@@ -2,8 +2,7 @@
 jQuery(document).ready(function($){
 	
 		
-		
-		
+
 		
 		// menu
 		
@@ -122,6 +121,10 @@ jQuery(document).ready(function($){
     createWaypoint('section_two', '#contact_trigger', 'visible', 500, null, true);
     
     createWaypoint('footer_trigger', '#contact_trigger', 'fadeout', 500, null, true);
+    
+    createWaypoint('internal_trigger', '#contact_trigger', 'visible', 500, null, true);
+    
+    
 
 
 
@@ -372,6 +375,8 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
   
   $(this).next('ul.sub-menu').slideToggle();
   
+  $(this).toggleClass('active');
+  
  });
  
  
@@ -454,7 +459,7 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 	// contact overlay
 	
 	
-	$('.contact_prompt').on('click', function(e) {
+	$('.contact_prompt, a.consultation_button').on('click', function(e) {
 	  
 	  $('.contact_overlay').addClass('open');
 	  

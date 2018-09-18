@@ -7,7 +7,7 @@
 			
 			<span class="sec_seven_title"><span class="blue">since 1985</span> Attorneys Bill Cannon and Pat Dunphy have given wrongly injured individuals <span class="red">the justice</span> they deserve.</span><!-- sec_seven_title -->
 			
-			<a class="sec_seven_view desktop" href="">View All Practice Areas</a><!-- view_all_pa -->
+			<a class="sec_seven_view desktop" href="<?php bloginfo('url');?>/practice-areas">View All Practice Areas</a><!-- view_all_pa -->
 			
 		</div><!-- sec_seven_left -->
 		
@@ -127,7 +127,7 @@
 				
 			</div><!-- sec_seven_right -->
 			
-		<a class="sec_seven_view mobile" href="">View All Practice Areas</a><!-- view_all_pa -->
+		<a class="sec_seven_view mobile" href="<?php bloginfo('url');?>/practice-areas">View All Practice Areas</a><!-- view_all_pa -->
 		
 	</div><!-- sec_seven_inner -->
 	

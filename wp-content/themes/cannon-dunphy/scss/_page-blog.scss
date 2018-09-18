@@ -126,6 +126,11 @@ a.read_more {
 		list-style: none;
 		text-transform: uppercase;
 		margin-top:25px;
+		li.current-cat {
+			a {
+				color:$red;
+			}
+		}
 		li {
 			font-family: $worksans;
 			font-weight: 700;

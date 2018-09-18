@@ -18,10 +18,9 @@ get_header(); ?>
 	
 </div><!-- internal_title_wrapper -->
 
-<div class="internal_main">
+<div id="internal_trigger" class="internal_main">
 	
-
-		
+	
 		<div class="custom_select">
 			
 			<div class="custom_select_title">

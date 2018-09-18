@@ -25,7 +25,7 @@ get_header(); ?>
 	
 </div><!-- internal_title_wrapper -->
 
-<div class="internal_main att_col">
+<div id="internal_trigger" class="internal_main att_col">
 	
 		<?php get_sidebar('att'); ?>
 		

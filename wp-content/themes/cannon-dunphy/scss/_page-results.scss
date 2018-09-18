@@ -159,6 +159,7 @@ body.page-template-template-caseresults {
 	overflow-y: scroll;
 	padding-left:70px;
 	padding-right:70px;
+	-webkit-overflow-scrolling: touch;
 	.cr_overlay_inner {
 		width:100%;
 		max-width:1100px;

@@ -266,6 +266,11 @@ body:not(.page-template-default) {
 	}
 	ul.menu {
 		margin-top:28px;
+		> li.current-menu-ancestor {
+				> a {
+					color:$red
+				}
+		}
 		> li {
 				font-family: $worksans;
 				font-weight: 700;
@@ -274,11 +279,17 @@ body:not(.page-template-default) {
 				width:100%;
 				letter-spacing: 0.1em;
 				cursor: pointer;
+				> a.active {
+					color:$red;
+				}
 				> a {
 						padding:25px 45px;
 						display: block;
 						border-bottom:1px solid #f1f1f1;
-						
+						transition: all 200ms ease-in-out;
+						&:hover {
+							color:$red;
+						}
 					}
 		}
 		>li.menu-item-has-children {
@@ -305,12 +316,21 @@ body:not(.page-template-default) {
 		display: none;
 		background:#f1f1f1;
 		padding-bottom:35px;
+		li.current_page_item {
+			> a {
+					color:$red;
+			}
+		}
 		li {
 			text-transform: lowercase;
 			font-weight: 500;
 			a {
 				padding:35px 45px 0;
 				display: block;
+				transition: all 200ms ease-in-out;
+				&:hover {
+					color:$red;
+				}
 			}
 		}
 	}
@@ -319,10 +339,7 @@ body:not(.page-template-default) {
 
 @media screen and (max-width: 1250px) {
 	
-	
 
-	
-	
 	.internal_title_wrapper {
 		margin-top: 93px;
 	}

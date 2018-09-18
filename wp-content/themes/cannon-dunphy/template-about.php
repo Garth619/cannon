@@ -22,7 +22,7 @@ get_header(); ?>
 </div><!-- about_internal_wrapper -->
 
 
-<div class="internal_main about_two_col">
+<div id="internal_trigger" class="internal_main about_two_col">
 	
 	<div class="about_content content">
 		

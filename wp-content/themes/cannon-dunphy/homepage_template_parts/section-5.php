@@ -10,7 +10,7 @@
 			
 			<span class="meet_att_line left"></span><!-- meet_att_line -->
 			
-			<a class="meet_att_link" href="">Meet Our Attorneys</a><!-- meet_att_link -->
+			<a class="meet_att_link" href="<?php bloginfo('url');?>/meet-the-attorneys">Meet Our Attorneys</a><!-- meet_att_link -->
 			
 			<span class="meet_att_line right"></span><!-- meet_att_line -->
 			

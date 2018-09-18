@@ -10,7 +10,7 @@
 			
 			<span class="sec_one_intro">We have recovered <strong>more $10 million awards</strong> than any other law firm in Wisconsin History. Proudly Continuing a <strong>100 Year Family History of Four Generations</strong> of lawyers representing people who have been wrongly injured. </span><!-- sec_one_intro -->
 			
-			<a class="consultation_button desktop" href="">
+			<a class="consultation_button desktop">
 				
 				<span class="button_title">request your free consultation</span><!-- button_title -->
 				
@@ -28,22 +28,23 @@
 	
 	<div class="sec_one_right">
 		
-		
 		<div class="video_wrapper">
+			
+			<a href="//www.youtube-nocookie.com/embed/Rn35NjNEGOA?rel=0&amp;showinfo=0;autoplay=1" data-lity>
 			
 			<div class="video_button">
 				
-				<div class="video_button_inner">
-					
-					
-					
-				</div><!-- video_button_inner -->
+				<div class="video_button_inner"></div><!-- video_button_inner -->
 				
 			</div><!-- video_button -->
 			
 			<span class="video_cta">learn about our firm in <strong>45</strong> seconds</span><!-- video_cta -->
 			
+			</a>
+			
 		</div><!-- video_wrapper -->
+		
+		
 		
 		<img class="desktop" src="<?php bloginfo('template_directory');?>/images/hero_img_desktop.jpg"/>
 		
@@ -57,7 +58,7 @@
 	
 </section><!-- section_one -->
 
-		<a class="consultation_button mobile" href="">
+		<a class="consultation_button mobile">
 				
 				<span class="button_title">request your free consultation</span><!-- button_title -->
 				

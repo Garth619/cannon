@@ -711,6 +711,32 @@ footer {
 		padding-left:20px;
 		padding-right:20px;
 	}
+	
+	
+	
+.copyright {
+	
+	ul {
+		li {
+			font-size:15px;
+			&:last-of-type {
+				&:after {
+					
+				}
+			}
+			&:after {
+				
+			}
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
 
 
 

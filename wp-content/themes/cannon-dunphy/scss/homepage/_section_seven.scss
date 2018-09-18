@@ -119,7 +119,7 @@ a.sec_seven_view.mobile {
 
 
 #section_seven {
-	padding: 0 70px 60px 100px;
+	padding: 0 70px 79px 100px;
 }
 
 
@@ -281,8 +281,12 @@ a.sec_seven_view {
 
 
 a.sec_seven_view.mobile {
-	display: inline-block;
+	display: block;
 	margin:45px auto 70px;
+	width:320px;
+	text-align: center;
+	padding-left:0;
+	padding-right:0;
 }
 	
 	

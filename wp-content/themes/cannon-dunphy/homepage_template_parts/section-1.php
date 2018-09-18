@@ -8,7 +8,7 @@
 			
 			<span class="large_header">Over $1 billion recovered since 1985. </span><!-- large_header -->
 			
-			<span class="sec_one_intro">We have recovered <strong>more $10 million awards</strong> than any other law firm in Wisconsin History. Proudly Continuing a <strong>100 Year Family History of Four Generations</strong> of lawyers representing people who have been wrongly injured. </span><!-- sec_one_intro -->
+			<span class="sec_one_intro">We have recovered <strong>more $10 million awards</strong> than any other law firm in Wisconsin History. Proudly Continuing a <strong>100 Year Family History of Four Generations</strong> of lawyers representing people who have been wrongly&nbsp;injured. </span><!-- sec_one_intro -->
 			
 			<a class="consultation_button desktop">
 				

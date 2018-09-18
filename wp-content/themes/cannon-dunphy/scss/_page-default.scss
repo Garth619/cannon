@@ -499,6 +499,17 @@ body:not(.page-template-default) {
 		}
 }
 
+
+.sidebar_wrapper {
+	flex-basis:auto;
+}
+
+
+.sidebar_pa {
+	.sidebar_pa_inner {
+    	margin-bottom: 6px;
+	}
+}
 	
 	
 	

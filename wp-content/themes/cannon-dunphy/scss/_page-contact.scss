@@ -258,6 +258,11 @@ body.page-template-template-contact {
   
   .iframe_map {
 	  flex-direction: column;
+	  iframe {
+		  &:first-of-type {
+			  margin-bottom: 25px;
+		  }
+	  }
   }
 	
 	

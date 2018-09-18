@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer_trigger">
 	
 	<div class="footer_inner">
 		
@@ -125,7 +125,7 @@
 	
 </footer>
 
-<div class="contact_prompt">
+<div id="contact_trigger" class="contact_prompt">
 	
 	<img src="<?php bloginfo('template_directory');?>/images/contactus_icon.svg"/>
 	

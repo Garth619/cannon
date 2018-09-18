@@ -89,7 +89,7 @@ jQuery(document).ready(function($){
     /* Waypoints
      --------------------------------------------------------------------------------------- */
 
-/*
+
     function createWaypoint(triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
       if(jQuery('#' + triggerElementId).length) {
         var waypoint = new Waypoint({
@@ -117,16 +117,11 @@ jQuery(document).ready(function($){
         });
       }
     }
-*/
 
-    //Waypoint Instance - Add Class To Element
-    //Template -> createWaypoint('id-name', '.class-name', 'class-to-be-added', offset-value, null, true);
-    //Example -> createWaypoint('section-2', '.section-2-orange-dot', 'section-2-orange-dot-active', 500, null, true);
 
-    //Waypoint Instance - Call Function
-    //Template -> createWaypoint('id-name', null, null, 0, function-name, true);
-    //Example -> createWaypoint('section-2', null, null, 0, test, true);
-
+    createWaypoint('section_two', '#contact_trigger', 'visible', 500, null, true);
+    
+    createWaypoint('footer_trigger', '#contact_trigger', 'fadeout', 500, null, true);
 
 
 

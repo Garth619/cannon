@@ -40,11 +40,11 @@ get_header(); ?>
 				
 				<?php $myarray = array();
 					
-					if(get_field('case_results')):
+					if(get_field('single_videos')):
 					 
-						while(has_sub_field('case_results')):
+						while(has_sub_field('single_videos')):
 									
-						 	$arrayvalue[] = get_sub_field('case_result_type');
+						 	$arrayvalue[] = get_sub_field('video_category_title');
 									
 						endwhile;
 					 
@@ -76,12 +76,52 @@ get_header(); ?>
 		<div class="videos_wrapper">
 			
 			
-			<div class="single_video">
+			<?php if(get_field('single_videos')): ?>
+			 
+				<?php while(has_sub_field('single_videos')):
+					
+					$casetype = get_sub_field('video_category_title');
+						
+					$tabclass = (str_replace(' ', '-', strtolower($casetype))); ?>
 				
+					<div class="single_video <?php echo $tabclass; ?>">
 				
+						<a href="//www.youtube-nocookie.com/embed/<?php the_sub_field( 'youtube_id' ); ?>?rel=0&amp;showinfo=0;autoplay=1" data-lity >
+					
+						<div class="youtube_thumb">
+						
+							<img src="https://img.youtube.com/vi/<?php the_sub_field( 'youtube_id' ); ?>/maxresdefault.jpg"/>
+						
+							<div class="yt_overlay"></div><!-- yt_overlay -->
+						
+							<div class="internal_video_wrapper">
+						
+								<div class="internal_video_button">
+							
+									<div class="internal_video_button_inner"></div><!-- internal_video_button_inner -->
+								
+									<div class="video_button_tri"></div><!-- video_button_tri -->
+							
+								</div><!-- internal_video_button -->
+						
+							</div><!-- internal_video_wrapper -->
+						
+						</div><!-- youtube_thumb -->
+					
+						<span class="single_video_title"><?php the_sub_field( 'video_title' ); ?></span><!-- single_video_title -->
+					
+						<span class="video_category"><?php the_sub_field( 'video_category_title' ); ?></span><!-- video_category -->
+					
+					</a>
 				
-			</div><!-- single_video -->
-		
+				</div><!-- single_video -->
+					
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
+
 			
 		</div><!-- videos_wrapper -->
 		

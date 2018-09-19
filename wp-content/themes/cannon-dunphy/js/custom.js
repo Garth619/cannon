@@ -381,7 +381,7 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
  
  
  
- // case results
+ // case results and video center filters
  
  
  
@@ -419,9 +419,9 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 		var mydata = $(this).data('tag');
 	
 		
-		$('.case_result_types').fadeOut(300).delay(500).fadeIn(400);
+		$('.case_result_types, .videos_wrapper').fadeOut(300).delay(500).fadeIn(400);
 		
-		$('.single_case_results').fadeOut(300);
+		$('.single_case_results, .single_video').fadeOut(300);
 		
 		$('.' + mydata + '').delay(600).fadeIn(400);
 
@@ -455,8 +455,9 @@ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', functi
 	
 	});
 	
+
 	
-	// contact overlay
+// contact overlay
 	
 	
 	$('.contact_prompt, a.consultation_button').on('click', function(e) {

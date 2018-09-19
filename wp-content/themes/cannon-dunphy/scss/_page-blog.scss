@@ -1,8 +1,8 @@
 .blog_wrapper {
 	display: flex;
 	max-width:1700px;
-	padding-left:40px;
-	padding-right:40px;
+	padding-left:70px;
+	padding-right:70px;
 	margin:0 auto 140px;
 }
 
@@ -229,6 +229,11 @@ a.read_more {
 
 @media screen and (max-width: 767px) {
 	
+	
+	.blog_wrapper {
+		padding-left:40px;
+		padding-right:40px;
+	}
 	
 	.blog_content {
 		margin: 38px 0 0;

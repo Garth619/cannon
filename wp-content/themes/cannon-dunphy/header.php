@@ -86,15 +86,15 @@
 			
 			<div class="mobile_phone">
 				
-				<div>
+			
 					
-					<a class="" href="tel:<?php the_field( 'phone','options'); ?>">
+					<a href="tel:<?php the_field( 'phone','options'); ?>">
 					
 						<?php echo file_get_contents("wp-content/themes/cannon-dunphy/images/hero_icon_mobile.svg"); ?>
 					
 					</a>
 					
-				</div>
+			
 				
 			</div><!-- mobile_phone -->
 			

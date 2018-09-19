@@ -626,6 +626,14 @@ nav {
 		width:71px;
 		justify-content: center;
 		align-items: center;
+		a {
+			display: block;
+		}
+		svg {
+			width:24px;
+			height:46px;
+			
+		}
 	}
 	
 	.call_wrapper {

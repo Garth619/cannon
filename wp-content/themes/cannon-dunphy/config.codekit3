@@ -1746,11 +1746,39 @@
 		"oAP": "\/sidebar-att.php",
 		"oF": 0
 		},
+	"\/sidebar-autocaraccidents.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-autocaraccidents.php",
+		"oF": 0
+		},
 	"\/sidebar-blog.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar-blog.php",
+		"oF": 0
+		},
+	"\/sidebar-kenosha.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-kenosha.php",
+		"oF": 0
+		},
+	"\/sidebar-racine.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-racine.php",
+		"oF": 0
+		},
+	"\/sidebar-spanish.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-spanish.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
@@ -1822,6 +1850,13 @@
 		"oAP": "\/template-about.php",
 		"oF": 0
 		},
+	"\/template-autocaraccidents.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-autocaraccidents.php",
+		"oF": 0
+		},
 	"\/template-bio.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1850,6 +1885,13 @@
 		"oAP": "\/template-home.php",
 		"oF": 0
 		},
+	"\/template-kenosha.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-kenosha.php",
+		"oF": 0
+		},
 	"\/template-meetteam.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1862,6 +1904,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-padirectory.php",
+		"oF": 0
+		},
+	"\/template-racine.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-racine.php",
+		"oF": 0
+		},
+	"\/template-spanish.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-spanish.php",
 		"oF": 0
 		},
 	"\/template-testimonials.php": {

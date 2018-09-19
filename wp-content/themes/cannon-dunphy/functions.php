@@ -121,6 +121,10 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 register_nav_menus(array(
     'main_menu' => 'Main Menu',
     'pa_menu' => 'PA Sidebar Menu',
+    'autocars_menu' => 'Auto and Car Accidents Sidebar Menu',
+    'racine_menu' => 'Racine Sidebar Menu',
+    'kenosha_menu' => 'Kenosha Sidebar Menu',
+    'spanish_menu' => 'Spanish Sidebar Menu',
 ));
 
 /* Widgets

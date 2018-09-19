@@ -74,7 +74,7 @@ body.page-template-template-caseresults {
 			font-weight:600;
 			font-size:15px;
 			letter-spacing: 0.1em;
-			padding:10px 35px;
+			padding: 18px 35px;
 			transition: all 200ms ease-in-out;
 			&:hover {
 				color:$red;
@@ -271,10 +271,12 @@ body.page-template-template-caseresults {
 		max-width: 910px;
 		padding-bottom:75px;
 		&:after {
-			flex-basis: 43%;
+			flex-basis: 46%;
 		}
 		.single_case_results {
-			flex-basis: 43%;
+			flex-basis: 46%;
+			padding-left:20px;
+			padding-right:20px;
 		}
 	}
 	
@@ -310,7 +312,7 @@ body.page-template-template-caseresults {
 
 
 
-@media screen and (max-width: 895px) {
+@media screen and (max-width: 767px) {
 	
 	
 	.case_result_types {

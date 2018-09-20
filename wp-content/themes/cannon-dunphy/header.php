@@ -69,7 +69,7 @@
 				
 					<span class="call_for mobile">Free Consultation</span><!-- call_for -->
 				
-					<span class="espanol">Se Habla Espanol</span><!-- espanol -->
+					<a class="espanol" href="<?php the_field( 'spanish_page_link','option'); ?>"><?php the_field( 'spanish_verbiage','option'); ?></a><!-- espanol -->
 				
 				</div><!-- flex_wrapper -->
 				

@@ -60,7 +60,15 @@ body:not(.page-template-template-home) {
 	span.mobile {
 		display: none;
 	}
-	span.espanol {
+	a.espanol {
+		color:$lightblue;
+		font-family: $worksans;
+		font-weight: 600;
+		font-size:18px;
+		letter-spacing: 0.06em;
+		display: inline-block;
+		margin-top:9px;
+		text-decoration: none;
 		&:before {
 			content:"";
 			display: inline-block;
@@ -542,7 +550,9 @@ nav {
 			font-size:16px;
 			margin-top: 2px;
 		}
-		span.espanol {
+		a.espanol {
+			font-size:16px;
+			margin-top: 2px;
 			&:before {
 				width:4px;
 				height:4px;

@@ -4,15 +4,15 @@
 		
 		<div class="sec_one_left_inner">
 			
-			<span class="small_header">No personal injury case is too big or too small.</span><!-- small_header -->
+			<span class="small_header"><?php the_field( 'section_one_small_header' ); ?></span><!-- small_header -->
 			
-			<span class="large_header">Over $1 billion recovered since 1985. </span><!-- large_header -->
+			<span class="large_header"><?php the_field( 'section_one_large_header' ); ?></span><!-- large_header -->
 			
-			<span class="sec_one_intro">We have recovered <strong>more $10 million awards</strong> than any other law firm in Wisconsin History. Proudly Continuing a <strong>100 Year Family History of Four Generations</strong> of lawyers representing people who have been wrongly&nbsp;injured. </span><!-- sec_one_intro -->
+			<span class="sec_one_intro"><?php the_field( 'section_one_content' ); ?><!-- sec_one_intro -->
 			
 			<a class="consultation_button desktop">
 				
-				<span class="button_title">request your free consultation</span><!-- button_title -->
+				<span class="button_title"><?php the_field( 'section_one_request_verbiage' ); ?></span><!-- button_title -->
 				
 				<div class="button_circle">
 					
@@ -30,7 +30,7 @@
 		
 		<div class="video_wrapper">
 			
-			<a href="//www.youtube-nocookie.com/embed/Rn35NjNEGOA?rel=0&amp;showinfo=0;autoplay=1" data-lity>
+			<a href="//www.youtube-nocookie.com/embed/<?php the_field( 'youtube_video_id' ); ?>?rel=0&amp;showinfo=0;autoplay=1" data-lity>
 			
 			<div class="video_button">
 				
@@ -44,11 +44,13 @@
 			
 		</div><!-- video_wrapper -->
 		
-		
-		
-		<img class="desktop" src="<?php bloginfo('template_directory');?>/images/hero_img_desktop.jpg"/>
-		
+		<?php $section_one_desktop_image = get_field( 'section_one_desktop_image' ); ?>
 
+		<?php if ( $section_one_desktop_image ) { ?>
+	
+			<img class="desktop" src="<?php echo $section_one_desktop_image['url']; ?>" alt="<?php echo $section_one_desktop_image['alt']; ?>" />
+
+		<?php } ?>
 
 		
 	</div><!-- sec_one_right -->

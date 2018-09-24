@@ -55,14 +55,20 @@
 		
 	</div><!-- sec_one_right -->
 	
-	
-	<img class="tablet" src="<?php bloginfo('template_directory');?>/images/hero_img_tablet.jpg"/>
+	<?php $section_one_tablet_image = get_field( 'section_one_tablet_image' ); ?>
+
+	<?php if ( $section_one_tablet_image ) { ?>
+		
+		<img class="tablet" src="<?php echo $section_one_tablet_image['url']; ?>" alt="<?php echo $section_one_tablet_image['alt']; ?>" />
+
+		<?php } ?>
+
 	
 </section><!-- section_one -->
 
 		<a class="consultation_button mobile">
 				
-				<span class="button_title">request your free consultation</span><!-- button_title -->
+				<span class="button_title"><?php the_field( 'section_one_request_verbiage' ); ?></span><!-- button_title -->
 				
 				<div class="button_circle">
 					

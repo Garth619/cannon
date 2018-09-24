@@ -26963,11 +26963,110 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/2018\/09\/content1_img_desktop-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5942,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_img_desktop-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/content1_img_desktop-195x300.jpg": {
+		"ft": 16384,
+		"iS": 12825,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_img_desktop-195x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/content1_img_desktop.jpg": {
+		"ft": 16384,
+		"iS": 89147,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_img_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/content1_logo_01-1.png": {
+		"ft": 32768,
+		"iS": 9562,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_logo_01-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/2018\/09\/content1_logo_01.png": {
 		"ft": 32768,
 		"iS": 9562,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_logo_01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/content1_logo_02.png": {
+		"ft": 32768,
+		"iS": 4730,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_logo_02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/content1_logo_03.png": {
+		"ft": 32768,
+		"iS": 4533,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_logo_03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/content1_logo_04.png": {
+		"ft": 32768,
+		"iS": 7106,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_logo_04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/content1_logo_05.png": {
+		"ft": 32768,
+		"iS": 6006,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_logo_05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/content1_logo_06.png": {
+		"ft": 32768,
+		"iS": 7962,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_logo_06.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -27046,6 +27145,50 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/hero_img_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/hero_img_tablet-150x150.jpg": {
+		"ft": 16384,
+		"iS": 4495,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/hero_img_tablet-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/hero_img_tablet-287x300.jpg": {
+		"ft": 16384,
+		"iS": 12076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/hero_img_tablet-287x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/hero_img_tablet-768x802.jpg": {
+		"ft": 16384,
+		"iS": 60987,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/hero_img_tablet-768x802.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/hero_img_tablet.jpg": {
+		"ft": 16384,
+		"iS": 123495,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/hero_img_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -27238,6 +27381,76 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/2018\/09\/PA_Icon_01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/PA_Icon_01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/PA_Icon_02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/PA_Icon_02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/PA_Icon_03.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/PA_Icon_03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/PA_Icon_04.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/PA_Icon_04.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/PA_Icon_05.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/PA_Icon_05.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/PA_Icon_06-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/PA_Icon_06-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/PA_Icon_06.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/PA_Icon_06.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/uploads\/2018\/09\/rated-SuperLawyer-Cannon.png": {
 		"ft": 32768,
 		"iS": 11186,
@@ -27281,6 +27494,46 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/SP_Icon_01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/SP_Icon_01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/SP_Icon_02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/SP_Icon_02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/SP_Icon_03.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/SP_Icon_03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/SP_Icon_04.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/SP_Icon_04.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/wp-content\/uploads\/2018\/09\/superlawyers-acc-1-150x51.png": {
 		"ft": 32768,
@@ -27500,6 +27753,61 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/test_img_desktop-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5879,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/test_img_desktop-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/test_img_desktop-239x300.jpg": {
+		"ft": 16384,
+		"iS": 13752,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/test_img_desktop-239x300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/test_img_desktop-768x963.jpg": {
+		"ft": 16384,
+		"iS": 84676,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/test_img_desktop-768x963.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/test_img_desktop-817x1024.jpg": {
+		"ft": 16384,
+		"iS": 93302,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/test_img_desktop-817x1024.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/test_img_desktop.jpg": {
+		"ft": 16384,
+		"iS": 119715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/test_img_desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/the-best-lawyers-in-america-1-150x150.png": {

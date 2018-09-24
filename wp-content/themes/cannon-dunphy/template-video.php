@@ -58,7 +58,11 @@ get_header(); ?>
 						
 					foreach ($unique as $value) {
 						
-						$datatag = (str_replace(' ', '-', strtolower($value))); 
+						$rules[] = ",";
+						$rules[] = " ";
+						$rules[] = "'";
+						
+						$datatag = (str_replace($rules,"-", strtolower($value))); 
 						
 						echo '<li data-tag="' . $datatag . '">' . $value . '</li>';
 					
@@ -81,8 +85,12 @@ get_header(); ?>
 				<?php while(has_sub_field('single_videos')):
 					
 					$casetype = get_sub_field('video_category_title');
+					
+					$rules[] = ",";
+					$rules[] = " ";
+					$rules[] = "'";
 						
-					$tabclass = (str_replace(' ', '-', strtolower($casetype))); ?>
+					$tabclass = (str_replace($rules, '-', strtolower($casetype))); ?>
 				
 					<div class="single_video <?php echo $tabclass; ?>">
 				

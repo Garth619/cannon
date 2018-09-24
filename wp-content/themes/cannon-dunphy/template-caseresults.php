@@ -57,7 +57,11 @@ get_header(); ?>
 						
 					foreach ($unique as $value) {
 						
-						$datatag = (str_replace(' ', '-', strtolower($value))); 
+						$rules[] = ",";
+						$rules[] = " ";
+						$rules[] = "'";
+						
+						$datatag = (str_replace($rules, "-", strtolower($value))); 
 						
 						echo '<li data-tag="' . $datatag . '">' . $value . '</li>';
 					
@@ -83,7 +87,11 @@ get_header(); ?>
 				
 						$casetype = get_sub_field('case_result_type');
 						
-						$tabclass = (str_replace(' ', '-', strtolower($casetype))); ?>
+						$rules[] = ",";
+						$rules[] = " ";
+						$rules[] = "'";
+						
+						$tabclass = (str_replace($rules, "-", strtolower($casetype))); ?>
 
 				
 					<div class="single_case_results <?php echo $tabclass; ?>">

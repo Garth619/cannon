@@ -5,9 +5,9 @@
 		
 		<div class="sec_seven_left">
 			
-			<span class="sec_seven_title"><span class="blue">since 1985</span> Attorneys Bill Cannon and Pat Dunphy have given wrongly injured individuals <span class="red">the justice</span> they deserve.</span><!-- sec_seven_title -->
+			<span class="sec_seven_title"><?php the_field( 'section_seven_intro' ); ?></span><!-- sec_seven_title -->
 			
-			<a class="sec_seven_view desktop" href="<?php bloginfo('url');?>/practice-areas">View All Practice Areas</a><!-- view_all_pa -->
+			<a class="sec_seven_view desktop" href="<?php the_field( 'section_seven_view_all_pas_page_link' ); ?>"><?php the_field( 'section_seven_view_all_pas_verbiage' ); ?></a><!-- view_all_pa -->
 			
 		</div><!-- sec_seven_left -->
 		
@@ -21,101 +21,34 @@
 			
 				<div class="sec_seven_slider">
 					
-					<div class="sec_seven_single_slide one">
-						
-						<a class="" href="">
-							
-							<div class="svg_wrapper">
-							
-								<img src="<?php bloginfo('template_directory');?>/images/pa_icon_01.svg"/>
-							
-							</div><!-- svg_wrapper -->
-							
-							<span class="sec_seven_pa_title">Auto Accidents</span><!-- sec_seven_pa_title -->
-							
-						</a>
-						
-					</div><!-- sec_seven_single_slide -->
 					
-					<div class="sec_seven_single_slide two">
+					<?php if(get_field('section_seven_practice_areas')): ?>
+					 
+						<?php while(has_sub_field('section_seven_practice_areas')): ?>
+					 
+							<div class="sec_seven_single_slide <?php the_sub_field( 'pa_class' ); ?>">
 						
-						<a class="" href="">
+								<a href="<?php the_sub_field( 'pa_link' ); ?>">
 							
-							<div class="svg_wrapper">
+								<div class="svg_wrapper">
 							
-								<img src="<?php bloginfo('template_directory');?>/images/pa_icon_02.svg"/>
+									<?php $pa_svgs = get_sub_field( 'pa_svgs' ); ?>
+		
+									<img src="<?php echo $pa_svgs['url']; ?>" alt="<?php echo $pa_svgs['alt']; ?>" />
+		
 							
-							</div><!-- svg_wrapper -->
+								</div><!-- svg_wrapper -->
 							
-							<span class="sec_seven_pa_title">Personal Injury</span><!-- sec_seven_pa_title -->
+								<span class="sec_seven_pa_title"><?php the_sub_field( 'pa_title' ); ?></span><!-- sec_seven_pa_title -->
 							
-						</a>
+							</a>
 						
-					</div><!-- sec_seven_single_slide -->
-					
-					<div class="sec_seven_single_slide three">
-						
-						<a class="" href="">
-							
-							<div class="svg_wrapper">
-							
-								<img src="<?php bloginfo('template_directory');?>/images/pa_icon_04.svg"/>
-							
-							</div><!-- svg_wrapper -->
-							
-							<span class="sec_seven_pa_title">Wrongful Death</span><!-- sec_seven_pa_title -->
-							
-						</a>
-						
-					</div><!-- sec_seven_single_slide -->
-					
-					<div class="sec_seven_single_slide four">
-						
-						<a class="" href="">
-							
-							<div class="svg_wrapper">
-							
-								<img src="<?php bloginfo('template_directory');?>/images/pa_icon_03.svg"/>
-							
-							</div><!-- svg_wrapper -->
-							
-							<span class="sec_seven_pa_title">Nursing Home Abuse</span><!-- sec_seven_pa_title -->
-							
-						</a>
-						
-					</div><!-- sec_seven_single_slide -->
-					
-					<div class="sec_seven_single_slide five">
-						
-						<a class="" href="">
-							
-							<div class="svg_wrapper">
-							
-								<img src="<?php bloginfo('template_directory');?>/images/pa_icon_05.svg"/>
-							
-							</div><!-- svg_wrapper -->
-							
-							<span class="sec_seven_pa_title">Motorcycle Accidents</span><!-- sec_seven_pa_title -->
-							
-						</a>
-						
-					</div><!-- sec_seven_single_slide -->
-					
-					<div class="sec_seven_single_slide six">
-						
-						<a class="" href="">
-							
-							<div class="svg_wrapper">
-							
-								<img src="<?php bloginfo('template_directory');?>/images/pa_icon_06.svg"/>
-							
-							</div><!-- svg_wrapper -->
-							
-							<span class="sec_seven_pa_title">Truck Accidents</span><!-- sec_seven_pa_title -->
-							
-						</a>
-						
-					</div><!-- sec_seven_single_slide -->
+						</div><!-- sec_seven_single_slide -->
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
+
 					
 				</div><!-- sec_seven_slider -->
 				
@@ -127,7 +60,7 @@
 				
 			</div><!-- sec_seven_right -->
 			
-		<a class="sec_seven_view mobile" href="<?php bloginfo('url');?>/practice-areas">View All Practice Areas</a><!-- view_all_pa -->
+		<a class="sec_seven_view mobile" href="<?php the_field( 'section_seven_view_all_pas_page_link' ); ?>"><?php the_field( 'section_seven_view_all_pas_verbiage' ); ?></a><!-- view_all_pa -->
 		
 	</div><!-- sec_seven_inner -->
 	

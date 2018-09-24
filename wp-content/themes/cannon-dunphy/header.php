@@ -31,6 +31,9 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500,700|Work+Sans:300,400,500,600,700,800');
+
+<?php the_field( 'review_css','option'); ?>
+
 </style>
 
 <?php wp_head(); ?>
@@ -38,6 +41,8 @@
 <?php the_field('schema_code', 'option'); ?>
 
 <?php the_field('analytics_code', 'option'); ?>
+
+
 
 
 </head>
@@ -51,10 +56,23 @@
 			
 			<a href="<?php bloginfo('url');?>">
 				
-				<img class="desktop" src="<?php bloginfo('template_directory');?>/images/hero_logo_vertical.svg"/>
+				<?php $header_logo = get_field( 'header_logo','option'); ?>
 				
-				<img class="mobile" src="<?php bloginfo('template_directory');?>/images/hero_logo_horizontal.svg"/>
+				<?php if ( $header_logo ) { ?>
 				
+					<img class="desktop" src="<?php echo $header_logo['url']; ?>" alt="<?php echo $header_logo['alt']; ?>" />
+				
+				<?php } ?>
+				
+				<?php $header_logo_horizontal = get_field( 'header_logo_horizontal','option'); ?>
+
+				<?php if ( $header_logo_horizontal ) { ?>
+				
+					<img class="mobile" src="<?php echo $header_logo_horizontal['url']; ?>" alt="<?php echo $header_logo_horizontal['alt']; ?>" />
+				
+				<?php } ?>
+				
+								
 			</a>
 			
 		</div><!-- header_left -->

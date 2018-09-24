@@ -189,6 +189,20 @@ a.read_more {
 	}
 }
 
+@media screen and (max-width: 1790px) {
+	
+	
+	.blog_wrapper {
+		padding-right:95px;
+	}
+	
+	.blog_content {
+		padding-right: 6%;
+	}
+	
+	
+	
+} /* Media Query */
 
 @media screen and (max-width: 1250px) {
 	
@@ -196,6 +210,7 @@ a.read_more {
 	
 	.blog_wrapper {
 		flex-direction: column;
+		padding-right:70px;
 	}
 	
 	

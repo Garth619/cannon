@@ -27073,6 +27073,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 6128,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-150x150.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-150x150.jpg": {
 		"ft": 16384,
 		"iS": 6128,
@@ -27084,6 +27095,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-300x206.jpeg": {
+		"ft": 16384,
+		"iS": 12048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-300x206.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-300x206.jpg": {
 		"ft": 16384,
 		"iS": 12048,
@@ -27093,6 +27115,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer.jpeg": {
+		"ft": 16384,
+		"iS": 37962,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer.jpg": {
@@ -27193,6 +27226,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/hero_logo_horizontal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/hero_logo_horizontal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/uploads\/2018\/09\/hero_logo_vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/hero_logo_vertical.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/wp-content\/uploads\/2018\/09\/inner-circle-150x150.png": {
 		"ft": 32768,

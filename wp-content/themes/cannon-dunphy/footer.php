@@ -90,9 +90,20 @@
 			<div class="copyright desktop">
 				
 				<ul>
-					<li>&copy; 2018 cannon & dunphy attorneys at law</li>
-					<li><a href="">disclaimer</a></li>
-					<li>All Rights Reserved</li>
+					
+					<li><?php the_field( 'copyright','option'); ?></li>
+					
+					<?php $post_objects = get_field( 'disclaimer','option'); ?>
+					
+					<?php if(get_field( 'disclaimer','option')) {?>
+					
+						<li><a href="<?php the_field( 'disclaimer','option'); ?>">Disclaimer</a></li>
+					
+					<?php } ?>
+					
+					
+					<li><?php the_field( 'all_rights_reserved','option'); ?></li>
+				
 				</ul>
 				
 				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
@@ -110,9 +121,20 @@
 		<div class="copyright mobile">
 				
 				<ul>
-					<li>&copy; 2018 cannon & dunphy attorneys at law</li>
-					<li><a href="">disclaimer</a></li>
-					<li>All Rights Reserved</li>
+					
+					<li><?php the_field( 'copyright','option'); ?></li>
+					
+					<?php $post_objects = get_field( 'disclaimer','option'); ?>
+					
+					<?php if(get_field( 'disclaimer','option')) {?>
+					
+						<li><a href="<?php the_field( 'disclaimer','option'); ?>">Disclaimer</a></li>
+					
+					<?php } ?>
+					
+					
+					<li><?php the_field( 'all_rights_reserved','option'); ?></li>
+				
 				</ul>
 				
 				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">

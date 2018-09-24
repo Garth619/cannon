@@ -97,8 +97,20 @@ get_header(); ?>
 						<a href="//www.youtube-nocookie.com/embed/<?php the_sub_field( 'youtube_id' ); ?>?rel=0&amp;showinfo=0;autoplay=1" data-lity >
 					
 						<div class="youtube_thumb">
+							
+							<?php if(get_sub_field('upload_custom_thumbnail')) : ?>
+							
+								<?php $upload_custom_thumbnail = get_sub_field( 'upload_custom_thumbnail' ); ?>
+		
+								<img src="<?php echo $upload_custom_thumbnail['url']; ?>" alt="<?php the_sub_field( 'video_title' ); ?>" />
+								
+								<?php else:?>
+								
+								<img alt="<?php the_sub_field( 'video_title' ); ?>" src="https://img.youtube.com/vi/<?php the_sub_field( 'youtube_id' ); ?>/maxresdefault.jpg"/>
+	
+							<?php endif; ?>
 						
-							<img src="https://img.youtube.com/vi/<?php the_sub_field( 'youtube_id' ); ?>/maxresdefault.jpg"/>
+							
 						
 							<div class="yt_overlay"></div><!-- yt_overlay -->
 						

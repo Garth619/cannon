@@ -130,6 +130,7 @@ body.page-template-template-caseresults {
 			font-size:22px;
 			display: block;
 			margin:15px auto 0;
+			text-transform: capitalize;
 			max-width:195px;
 			&:after {
 				content:"";
@@ -263,9 +264,7 @@ body.page-template-template-caseresults {
 
 
 
-@media screen and (max-width: 1250px) {
-	
-	
+@media screen and (max-width: 1475px) {
 	
 	.case_result_types {
 		max-width: 910px;
@@ -279,7 +278,17 @@ body.page-template-template-caseresults {
 			padding-right:20px;
 		}
 	}
+
 	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	
+		
 	
 	
 	
@@ -363,7 +372,7 @@ body.page-template-template-caseresults {
 	}
 	.single_case_results {
 		padding: 69px;
-		height: 330px;
+		height: 311px;
 		&:hover {
 			
 		}

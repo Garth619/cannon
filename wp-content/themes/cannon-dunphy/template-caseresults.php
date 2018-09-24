@@ -91,14 +91,20 @@ get_header(); ?>
 						$rules[] = " ";
 						$rules[] = "'";
 						
-						$tabclass = (str_replace($rules, "-", strtolower($casetype))); ?>
+						$tabclass = (str_replace($rules, "-", strtolower($casetype))); 
+						
+						
+						$caps = ucwords(strtolower($casetype));
+						
+						
+						?>
 
 				
 					<div class="single_case_results <?php echo $tabclass; ?>">
 				
 						<span class="cr_amount"><?php the_sub_field( 'amount' ); ?></span><!-- cr_amount -->
 				
-						<span class="cr_decription"><?php the_sub_field( 'case_result_type' ); ?></span><!-- cr_decription -->
+						<span class="cr_decription"><?php echo $caps;?></span><!-- cr_decription -->
 				
 						<div class="overlay_data">
 				

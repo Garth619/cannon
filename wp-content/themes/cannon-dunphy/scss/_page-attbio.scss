@@ -185,11 +185,15 @@ body.page-template-template-bio {
 		}
 		.accolade_slider {
 			width:calc(100% - 60px);
-			
 			.accolade_single_slide {
+				height:160px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
 				img {
 					margin:0 auto;
-					height:112px;
+					max-width:180px;
+					max-height:112px;
 				}
 			}
 		}

@@ -26628,8 +26628,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/Avvo-client-choice.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26639,8 +26639,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/Avvo-Top-PI.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26663,7 +26663,7 @@
 		"oAP": "\/wp-content\/uploads\/2018\/09\/canon-best-lawyer-150x150.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/canon-best-lawyer-300x206.jpg": {
@@ -26674,7 +26674,7 @@
 		"oAP": "\/wp-content\/uploads\/2018\/09\/canon-best-lawyer-300x206.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/canon-best-lawyer.jpg": {
@@ -26685,7 +26685,7 @@
 		"oAP": "\/wp-content\/uploads\/2018\/09\/canon-best-lawyer.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/Choice2015.png": {
@@ -26705,8 +26705,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_01-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26716,8 +26716,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_01.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26727,8 +26727,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_02-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26738,8 +26738,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_02.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26749,8 +26749,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_03-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26760,8 +26760,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_03.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26771,8 +26771,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_04-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26782,8 +26782,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_04.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26815,8 +26815,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_06-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26826,8 +26826,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_06.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26837,8 +26837,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_07-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26848,8 +26848,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_07.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26925,8 +26925,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_11-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26936,8 +26936,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/content1_11.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27081,7 +27081,7 @@
 		"oAP": "\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-150x150.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-300x206.jpg": {
@@ -27092,7 +27092,7 @@
 		"oAP": "\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer-300x206.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer.jpg": {
@@ -27103,7 +27103,7 @@
 		"oAP": "\/wp-content\/uploads\/2018\/09\/dunphy-best-lawyer.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/hero_img_desktop-150x150.jpg": {
@@ -27255,8 +27255,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/LD-logo2-150x33.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27266,8 +27266,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/LD-logo2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27277,8 +27277,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/martindale-hubbell-1-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27288,8 +27288,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/martindale-hubbell-1-300x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27299,8 +27299,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/martindale-hubbell-1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27310,8 +27310,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/martindale-hubbell-150x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27321,8 +27321,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/martindale-hubbell-300x109.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27332,8 +27332,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/martindale-hubbell.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27343,8 +27343,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/nblsc-1-150x150.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27354,8 +27354,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/nblsc-1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27457,9 +27457,20 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/rated-SuperLawyer-Cannon.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/robinson-avoo-1.jpg": {
+		"ft": 16384,
+		"iS": 6986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/robinson-avoo-1.jpg",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/robinson-avoo.jpg": {
@@ -27470,7 +27481,7 @@
 		"oAP": "\/wp-content\/uploads\/2018\/09\/robinson-avoo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/uploads\/2018\/09\/Screen-Shot-2018-09-19-at-1.46.15-PM-150x150.png": {
@@ -27479,8 +27490,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/Screen-Shot-2018-09-19-at-1.46.15-PM-150x150.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27490,8 +27501,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/Screen-Shot-2018-09-19-at-1.46.15-PM.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27551,6 +27562,28 @@
 		"iS": 2815,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/superlawyers-acc-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/superlawyers-acc-10-150x51.png": {
+		"ft": 32768,
+		"iS": 3215,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/superlawyers-acc-10-150x51.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/superlawyers-acc-10.png": {
+		"ft": 32768,
+		"iS": 2815,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/superlawyers-acc-10.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -27816,8 +27849,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/the-best-lawyers-in-america-1-150x150.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27827,8 +27860,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/the-best-lawyers-in-america-1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27865,6 +27898,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/2018\/09\/the-best-lawyers-in-america-3-150x150.png": {
+		"ft": 32768,
+		"iS": 17281,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/the-best-lawyers-in-america-3-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/the-best-lawyers-in-america-3.png": {
+		"ft": 32768,
+		"iS": 4974,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/the-best-lawyers-in-america-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/2018\/09\/the-best-lawyers-in-america.png": {
 		"ft": 32768,
 		"iS": 4974,
@@ -27887,14 +27942,36 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/uploads\/2018\/09\/top-100-trial-lawyers-1-150x100.png": {
+		"ft": 32768,
+		"iS": 9853,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/top-100-trial-lawyers-1-150x100.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/uploads\/2018\/09\/top-100-trial-lawyers-1.png": {
+		"ft": 32768,
+		"iS": 5625,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2018\/09\/top-100-trial-lawyers-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/wp-content\/uploads\/2018\/09\/top-100-trial-lawyers-150x100.png": {
 		"ft": 32768,
 		"iS": 9853,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/top-100-trial-lawyers-150x100.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -27904,8 +27981,8 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2018\/09\/top-100-trial-lawyers.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

@@ -10,7 +10,7 @@
 				
 				<?php $section_four_image = get_field( 'section_four_image' ); ?>
 
-				<img src="<?php echo $section_four_image['url']; ?>" alt="<?php echo $section_four_image['alt']; ?>" />
+				<img data-src="<?php echo $section_four_image['url']; ?>" alt="<?php echo $section_four_image['alt']; ?>" />
 
 			</div><!-- sec_four_test_left -->
 			

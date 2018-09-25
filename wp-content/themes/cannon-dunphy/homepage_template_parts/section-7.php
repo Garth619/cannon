@@ -34,7 +34,7 @@
 							
 									<?php $pa_svgs = get_sub_field( 'pa_svgs' ); ?>
 		
-									<img src="<?php echo $pa_svgs['url']; ?>" alt="<?php echo $pa_svgs['alt']; ?>" />
+									<img data-src="<?php echo $pa_svgs['url']; ?>" alt="<?php echo $pa_svgs['alt']; ?>" />
 		
 							
 								</div><!-- svg_wrapper -->

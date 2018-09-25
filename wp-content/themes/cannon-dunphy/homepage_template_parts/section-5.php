@@ -2,7 +2,7 @@
 	
 	<div class="section_five_inner">
 		
-		<img class="skyline" src="<?php bloginfo('template_directory');?>/images/content2_icon.svg"/><!-- skyline -->
+		<img class="skyline" data-src="<?php bloginfo('template_directory');?>/images/content2_icon.svg"/><!-- skyline -->
 		
 		<span class="sec_five_large_header"><?php the_field( 'section_five_header' ); ?></span><!-- sec_five_large_header -->
 		

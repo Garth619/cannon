@@ -35,7 +35,7 @@ add_action( 'wp_enqueue_scripts', 'scripts', 1 );
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 1, 'all' ); 
+     // wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 2, 'all' ); 
      
      wp_enqueue_style( 'lity-styles', get_template_directory_uri() . '/js/lity/dist/lity.min.css', '', 1, 'all' );
 
@@ -47,6 +47,8 @@ add_action( 'wp_enqueue_scripts', 'scripts', 1 );
      wp_enqueue_script( 'jquery-lity', get_template_directory_uri() . '/js/lity/dist/lity.min.js', array('jquery'), '', true );
      
      wp_enqueue_script( 'jquery-waypoints', get_template_directory_uri() . '/js/waypoints.min.js', array('jquery'), '', true );
+     
+     wp_enqueue_script( 'jquery-modern', get_template_directory_uri() . '/js/modernizr-webp-min.js', array('jquery'), '', true );
      
      
  }
@@ -225,6 +227,20 @@ function cc_mime_types($mimes)
 add_filter('upload_mimes', 'cc_mime_types');
 
 
+/* ALLOW WEBPs IN MEDIA UPLOAD
+-------------------------------------------------------------- */
+
+
+function webp_upload_mimes( $existing_mimes ) {
+	// add webp to the list of mime types
+	$existing_mimes['webp'] = 'image/webp';
+
+	// return the array back to the function with our added mime type
+	return $existing_mimes;
+}
+add_filter( 'mime_types', 'webp_upload_mimes' );
+
+
 
 
 function wpbeginner_numeric_posts_nav() {
@@ -295,4 +311,16 @@ function wpbeginner_numeric_posts_nav() {
     echo '</ul></div></div>' . "\n";
  
 }
+
+
+
+add_action( 'wp_head', 'internal_css_print' );
+function internal_css_print() {
+   echo '<style>';
+   
+   include_once get_template_directory() . '/style.css';
+  
+   echo '</style>';
+}
+
 

@@ -10,7 +10,7 @@
 				
 				<?php $offer_icon = get_field( 'offer_icon' ); ?>
 
-				<img src="<?php echo $offer_icon['url']; ?>" alt="<?php echo $offer_icon['alt']; ?>" />
+				<img data-src="<?php echo $offer_icon['url']; ?>" alt="<?php echo $offer_icon['alt']; ?>" />
 
 			</div><!-- money_svg -->
 			
@@ -33,7 +33,7 @@
 						<?php $svg_file_name = get_sub_field( 'svg_file_name' ); ?>
 		
 						
-						<img src="<?php echo $svg_file_name['url']; ?>" alt="<?php echo $svg_file_name['alt']; ?>" />
+						<img data-src="<?php echo $svg_file_name['url']; ?>" alt="<?php echo $svg_file_name['alt']; ?>" />
 	
 				
 						<span class="slide_header"><?php the_sub_field( 'sp_description' ); ?></span><!-- slide_header -->

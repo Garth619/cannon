@@ -23,7 +23,7 @@
 				
 				<?php $section_three_image = get_field( 'section_three_image' ); ?>
 				
-				<img src="<?php echo $section_three_image['url']; ?>" alt="<?php echo $section_three_image['alt']; ?>" />
+				<img data-src="<?php echo $section_three_image['url']; ?>" alt="<?php echo $section_three_image['alt']; ?>" />
 
 			</div><!-- sec_three_image_wrapper -->
 			
@@ -52,7 +52,7 @@
 				 
 							<?php $logos = get_sub_field( 'logos' ); ?>
 		
-							<img src="<?php echo $logos['url']; ?>" alt="<?php echo $logos['alt']; ?>" />
+							<img data-src="<?php echo $logos['url']; ?>" alt="<?php echo $logos['alt']; ?>" />
 						
 						</div><!-- sec_three_single_slide -->
 		

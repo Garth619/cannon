@@ -20,7 +20,9 @@
 		
 		<div class="footer_left">
 			
-			
+			<?php $footer_image = get_field( 'footer_image','option'); ?>
+
+			<img data-src="<?php echo $footer_image['url']; ?>" alt="<?php echo $footer_image['alt']; ?>" />
 			
 		</div><!-- footer_left -->
 		
@@ -108,7 +110,7 @@
 				
 				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 				
-					<img src="<?php bloginfo('template_directory');?>/images/footer_icon_01.svg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/footer_icon_01.svg"/>
 				
 				</a><!-- ilawyer -->
 				
@@ -139,7 +141,7 @@
 				
 				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 				
-					<img src="<?php bloginfo('template_directory');?>/images/footer_icon_01.svg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/footer_icon_01.svg"/>
 				
 				</a><!-- ilawyer -->
 				
@@ -149,7 +151,7 @@
 
 <div id="contact_trigger" class="contact_prompt">
 	
-	<img src="<?php bloginfo('template_directory');?>/images/contactus_icon.svg"/>
+	<img data-src="<?php bloginfo('template_directory');?>/images/contactus_icon.svg"/>
 	
 	<span>contact<br/> us today</span>
 	

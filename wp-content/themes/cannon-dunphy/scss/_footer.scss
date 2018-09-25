@@ -171,8 +171,13 @@ footer {
 
 .footer_left {
 	flex-basis: 35%;
-	background: url(#{$themePath}images/footer_img_desktop.jpg) top left no-repeat;
-	background-size:cover;
+	// background: url(#{$themePath}images/footer_img_desktop.jpg) top left no-repeat;
+	// background-size:cover;
+	img {
+		object-fit:cover;
+		width:100%;
+		height:100%;
+	}
 }
 
 

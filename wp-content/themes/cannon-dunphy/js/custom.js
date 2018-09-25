@@ -80,7 +80,7 @@ jQuery(document).ready(function($){
 	 /* Modernizr - check if browser supports webp. if it does add class webp to html tag
      --------------------------------------------------------------------------------------- */
 
-    // Modernizr.on('webp', function(result) {});
+    Modernizr.on('webp', function(result) {});
 
 
 
@@ -123,6 +123,9 @@ jQuery(document).ready(function($){
     createWaypoint('footer_trigger', '#contact_trigger', 'fadeout', 500, null, true);
     
     createWaypoint('internal_trigger', '#contact_trigger', 'visible', 500, null, true);
+    
+    
+    
     
     
 
@@ -195,7 +198,7 @@ jQuery(document).ready(function($){
       console.log('images loaded');
     }
 
-    // createWaypoint('section-1', null, null, '100%', loadImages, false)
+    createWaypoint('section_two', null, null, '100%', loadImages, false)
 
 
 

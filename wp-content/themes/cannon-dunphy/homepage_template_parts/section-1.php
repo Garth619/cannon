@@ -46,22 +46,23 @@
 		
 		<?php $section_one_desktop_image = get_field( 'section_one_desktop_image' ); ?>
 
-		<?php if ( $section_one_desktop_image ) { ?>
-	
-			<img class="desktop" src="<?php echo $section_one_desktop_image['url']; ?>" alt="<?php echo $section_one_desktop_image['alt']; ?>" />
-
-		<?php } ?>
-
+		<img class="desktop no_webp" src="<?php echo $section_one_desktop_image['url']; ?>" alt="<?php echo $section_one_desktop_image['alt']; ?>" />
 		
+		<?php $section_one_desktop_image_webp = get_field( 'section_one_desktop_image_webp' ); ?>
+
+		<img class="desktop my_webp" src="<?php echo $section_one_desktop_image_webp['url']; ?>" alt="<?php echo $section_one_desktop_image_webp['alt']; ?>" />
+
+
 	</div><!-- sec_one_right -->
 	
 	<?php $section_one_tablet_image = get_field( 'section_one_tablet_image' ); ?>
 
-	<?php if ( $section_one_tablet_image ) { ?>
-		
-		<img class="tablet" src="<?php echo $section_one_tablet_image['url']; ?>" alt="<?php echo $section_one_tablet_image['alt']; ?>" />
+	<img class="tablet no_webp" src="<?php echo $section_one_tablet_image['url']; ?>" alt="<?php echo $section_one_tablet_image['alt']; ?>" />
+	
+	<?php $section_one_tablet_image_webp = get_field( 'section_one_tablet_image_webp' ); ?>
 
-		<?php } ?>
+	<img class="tablet my_webp" src="<?php echo $section_one_tablet_image_webp['url']; ?>" alt="<?php echo $section_one_tablet_image_webp['alt']; ?>" />
+
 
 	
 </section><!-- section_one -->

@@ -10,13 +10,10 @@ body.page-template-template-meetteam {
 	max-width:1580px;
 	margin:-82px auto 47px;
 	padding:0 70px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
 	&:after {
-		content: "";
+		content:"";
 		display: block;
-		flex-basis: 22%;
+		clear:both;
 	}
 }
 
@@ -27,7 +24,12 @@ body.page-template-template-meetteam {
 	border-bottom:4px solid $red;
 	padding-bottom:18px;
 	margin-bottom:80px;
-	flex-basis:22%;
+	width:22%;
+	float:left;
+	margin-right:4%;
+	&:nth-of-type(4n + 4) {
+		margin-right:0;
+	}
 	&:hover {
 		.attorney_image_wrapper {
 			.att_img_overlay {
@@ -110,15 +112,20 @@ body.page-template-template-meetteam {
 .meet_attorney_wrapper {
 	max-width: 1195px;
 	
-	&:after {
-		flex-basis:30%;
-	}
+	
 }
 
 
 	
 .single_attorney_wrapper {
-	flex-basis:30%;
+	width:30%;
+	margin-right:5%;
+	&:nth-of-type(4n + 4) {
+		margin-right:4%;
+	}
+	&:nth-of-type(3n + 3) {
+		margin-right:0%;
+	}
 	&:hover {
 		.attorney_image_wrapper {
 			.att_img_overlay {
@@ -164,14 +171,22 @@ body.page-template-template-meetteam {
 
 .meet_attorney_wrapper {
 	max-width: 816px;
-	&:after {
-		flex-basis:46%;
-	}
+	
 }
 	
 	
 .single_attorney_wrapper {
-	flex-basis:46%;
+	width:46%;
+	margin-right:7%;
+	&:nth-of-type(4n + 4) {
+		margin-right:7%;
+	}
+	&:nth-of-type(3n + 3) {
+		margin-right:7%;
+	}
+	&:nth-of-type(2n + 2) {
+		margin-right:0%;
+	}
 	&:hover {
 		.attorney_image_wrapper {
 			.att_img_overlay {
@@ -228,6 +243,12 @@ body.page-template-template-meetteam {
 
 .single_attorney_wrapper {
 	margin-bottom: 64px;
+	width:100%;
+	float:none;
+	margin-right:0;
+	&:nth-of-type(4n + 4), &:nth-of-type(3n + 3) {
+		margin-right:0;
+	}
 }
 
 

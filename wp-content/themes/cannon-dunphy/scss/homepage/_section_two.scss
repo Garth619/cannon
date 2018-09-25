@@ -1,26 +1,26 @@
 #section_two {
 	background:#f1f1f1;
 	padding-left:35px;
+	
 }
 
 
 .sec_two_inner {
-/*
-	max-width: 1735px;
-	margin:0px auto;
-*/
+
 	display: flex;
+	overflow-x: hidden;
 }
 
 .sec_two_intro {
 	padding:100px 35px  0 2.75%;
+	flex-basis: 530px;
 	span.large_header {
 		font-size:70px;
 		font-family: $frankruhl;
 		color:$blue;
 		line-height: 70px;
 		display: block;
-		max-width: 440px;
+		//max-width: 440px;
 		padding-bottom:32px;
 		border-bottom:4px solid $red;
 		margin-bottom:25px;

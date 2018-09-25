@@ -183,6 +183,8 @@ footer {
 }
 
 
+
+
 .footer_right_inner {
 	display: flex;
 	flex-wrap: wrap;
@@ -195,7 +197,7 @@ footer {
 		//flex-basis:297px;
 		flex-shrink:0;
 		&:nth-of-type(2), &:nth-of-type(4) {
-			padding-left:8%;
+			//padding-left:8%;
 		}
 		&:nth-of-type(3) {
 			span.large_header {
@@ -209,7 +211,11 @@ footer {
 		}
 		&:nth-of-type(4) {
 			display: flex;
-			justify-content: space-between;
+			//justify-content: space-between;
+			a {
+				margin-right:4%;
+			}
+			
 		}
 		span.large_header {
 			text-transform: uppercase;

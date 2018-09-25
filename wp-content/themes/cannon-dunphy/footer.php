@@ -28,7 +28,7 @@
 			
 			<div class="footer_right_inner">
 			
-			<div class="location_wrapper">
+			<div class="location_wrapper one">
 				
 				<span class="large_header"><?php the_field( 'firm_title','option'); ?></span><!-- large_header -->
 				
@@ -38,7 +38,7 @@
 				
 			</div><!-- location_wrapper -->
 			
-			<div class="location_wrapper">
+			<div class="location_wrapper two">
 				
 				<span class="large_header"><?php the_field( 'firm_title_two','option'); ?></span><!-- large_header -->
 				
@@ -49,7 +49,7 @@
 				
 			</div><!-- location_wrapper -->
 			
-			<div class="location_wrapper">
+			<div class="location_wrapper three">
 				
 				<span class="large_header"><?php the_field( 'contact_large_header','option'); ?></span><!-- large_header -->
 				
@@ -57,7 +57,7 @@
 				
 			</div><!-- location_wrapper -->
 			
-			<div class="location_wrapper">
+			<div class="location_wrapper four">
 				
 				<a class="social" href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank">
 					

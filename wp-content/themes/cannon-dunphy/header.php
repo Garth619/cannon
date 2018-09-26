@@ -43,7 +43,12 @@
 <?php the_field('analytics_code', 'option'); ?>
 
 
-
+<?php
+$schema = get_post_meta(get_the_ID(), 'schema', true);
+if(!empty($schema)) {
+	echo $schema;
+}
+?>
 
 </head>
 

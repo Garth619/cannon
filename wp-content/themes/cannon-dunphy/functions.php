@@ -2,64 +2,37 @@
 
 
 
-/* jQuery from Google
--------------------------------------------------------------- */
-
-
-
-if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
-function my_jquery_enqueue() {
-   wp_deregister_script('jquery');
-   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js", false, null,true);
-   wp_enqueue_script('jquery');
-}
-
-
-
-/*
-function scripts() {
-  wp_deregister_script('jquery');
-  wp_deregister_script( 'wp-embed' );
-  wp_deregister_script( 'wp_customize_support_script' );
-}
-add_action( 'wp_enqueue_scripts', 'scripts', 1 );
-*/
-
-
-
-
 /* Enqueued Scripts
 -------------------------------------------------------------- */
 
 
 
  function load_my_styles_scripts() {
-     // Load my stylesheet
-     // wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 2, 'all' ); 
+  
+    
+    // wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 2, 'all' ); 
+    
+    wp_deregister_script( 'jquery' );
+    wp_register_script( 'jquery', includes_url( '/js/jquery/jquery.js' ), false, NULL, true );
+    wp_enqueue_script( 'jquery' );
+    
+    
+    // wp_deregister_script( 'wp-embed' );
+		// wp_deregister_script( 'wp_customize_support_script' );
      
-     //wp_enqueue_style( 'lity-styles', get_template_directory_uri() . '/js/lity/dist/lity.min.css', '', 1, 'all' );
-
-     // Load my javascripts
-     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
+    wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
      
-     wp_enqueue_script( 'jquery-slick', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '', true );
-     
-     wp_enqueue_script( 'jquery-lity', get_template_directory_uri() . '/js/lity/dist/lity.min.js', array('jquery'), '', true );
-     
-     wp_enqueue_script( 'jquery-waypoints', get_template_directory_uri() . '/js/waypoints.min.js', array('jquery'), '', true );
-     
-     // wp_enqueue_script( 'jquery-modern', get_template_directory_uri() . '/js/modernizr-webp-min.js', array('jquery'), '', true );
-     
-     
- }
+    
+  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
  
+
+
+/* CSS in Header for Lighthouse
+-------------------------------------------------------------- */
  
- // Critical Styles in the header
  
-/*
-add_action( 'wp_head', 'internal_css_print' );
 function internal_css_print() {
    echo '<style>';
    
@@ -67,10 +40,12 @@ function internal_css_print() {
   
    echo '</style>';
 }
-*/
 
 
+add_action( 'wp_head', 'internal_css_print' );
 
+ 
+ 
 /* Force Gravity Forms to init scripts in the footer and ensure that the DOM is loaded before scripts are executed
 -------------------------------------------------------------- */
 
@@ -314,13 +289,5 @@ function wpbeginner_numeric_posts_nav() {
 
 
 
-add_action( 'wp_head', 'internal_css_print' );
-function internal_css_print() {
-   echo '<style>';
-   
-   include_once get_template_directory() . '/style.css';
-  
-   echo '</style>';
-}
 
 

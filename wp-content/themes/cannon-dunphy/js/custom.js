@@ -1,3 +1,7 @@
+// @codekit-prepend 'waypoints.js'
+// @codekit-prepend 'slick.js'
+// @codekit-prepend 'lity.js'
+// @codekit-prepend 'modernizr-webp.js'
 
 jQuery(document).ready(function($){
 	
@@ -77,10 +81,46 @@ jQuery(document).ready(function($){
 		
 		
 	
-	 /* Modernizr - check if browser supports webp. if it does add class webp to html tag
+	 /* Modernizr - check if browser supports webp. 
      --------------------------------------------------------------------------------------- */
+    
+    
+     Modernizr.on('webp', function (result) {
+	    
+	    jQuery('#section_one img').each(function () {
+	    
+				if (result) {
+    
+					if (jQuery(this).attr('data-webp')) {
+          
+          	var img = jQuery(this).data('webp');
+          
+						jQuery(this).attr('src', img);
+        	
+        	}
+      
+   			}
+  
+	 			else {
+		 			
+		 			if (jQuery(this).attr('data-jpg')) {
+          
+          	var img = jQuery(this).data('jpg');
+          
+						jQuery(this).attr('src', img);
+        	
+        	}
+    
+    		
+  	
+  			}
+  		
+  		});
+  		
+  		console.log(result);
+	
+		});
 
-    // Modernizr.on('webp', function(result) {});
 
 
 
@@ -179,32 +219,46 @@ jQuery(document).ready(function($){
       --------------------------------------------------------------------------------------- */
 
     function loadImages() {
+      
       // images
+      
       jQuery('img').each(function () {
+        
         if (jQuery(this).attr('data-src')) {
+          
           var img = jQuery(this).data('src');
+          
           jQuery(this).attr('src', img);
+        
         }
+      
       });
 
       // background images
+      
       jQuery('div, section').each(function () {
+       
         if (jQuery(this).attr('data-src')) {
+          
           var backgroundImg = jQuery(this).data('src');
+          
           jQuery(this).css('background-image', 'url(' + backgroundImg + ')');
+        
         }
+      
       });
 
       console.log('images loaded');
     }
 
-    createWaypoint('section_two', null, null, '100%', loadImages, false)
+    createWaypoint('section_two', null, null, '100%', loadImages, false);
+    
+    createWaypoint('internal_trigger', null, null, '100%', loadImages, false);
 
 
 
-
-    /* Slick Carousel ( http://kenwheeler.github.io/slick/ )
-     --------------------------------------------------------------------------------------- */
+/* Slick Carousel ( http://kenwheeler.github.io/slick/ )
+--------------------------------------------------------------------------------------- */
 
 
   

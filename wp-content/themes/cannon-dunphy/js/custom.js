@@ -80,7 +80,7 @@ jQuery(document).ready(function($){
 	 /* Modernizr - check if browser supports webp. if it does add class webp to html tag
      --------------------------------------------------------------------------------------- */
 
-    Modernizr.on('webp', function(result) {});
+    // Modernizr.on('webp', function(result) {});
 
 
 

@@ -48,7 +48,7 @@ add_action( 'wp_enqueue_scripts', 'scripts', 1 );
      
      wp_enqueue_script( 'jquery-waypoints', get_template_directory_uri() . '/js/waypoints.min.js', array('jquery'), '', true );
      
-     wp_enqueue_script( 'jquery-modern', get_template_directory_uri() . '/js/modernizr-webp-min.js', array('jquery'), '', true );
+     // wp_enqueue_script( 'jquery-modern', get_template_directory_uri() . '/js/modernizr-webp-min.js', array('jquery'), '', true );
      
      
  }

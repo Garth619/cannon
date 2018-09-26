@@ -4680,19 +4680,6 @@
 		"oAP": "\/wp-config.php",
 		"oF": 0
 		},
-	"\/wp-content\/advanced-cache.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/wp-content\/advanced-cache.php",
-		"oF": 0
-		},
-	"\/wp-content\/cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/wp-content\/cache",
-		"oF": 0
-		},
 	"\/wp-content\/index.php": {
 		"cB": 0,
 		"ft": 8192,

@@ -37,7 +37,7 @@ add_action( 'wp_enqueue_scripts', 'scripts', 1 );
      // Load my stylesheet
      // wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 2, 'all' ); 
      
-     wp_enqueue_style( 'lity-styles', get_template_directory_uri() . '/js/lity/dist/lity.min.css', '', 1, 'all' );
+     //wp_enqueue_style( 'lity-styles', get_template_directory_uri() . '/js/lity/dist/lity.min.css', '', 1, 'all' );
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );

@@ -429,7 +429,7 @@ checkWidthsp();
 --------------------------------------------------------------------------------------- */
 
 
-$('ul > li.menu-item-has-children > a').removeAttr("href");
+$("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
 

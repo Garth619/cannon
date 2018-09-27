@@ -21,6 +21,7 @@
 		// wp_deregister_script( 'wp_customize_support_script' );
      
     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
+    
      
     
   }

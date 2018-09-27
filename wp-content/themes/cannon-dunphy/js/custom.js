@@ -425,6 +425,14 @@ checkWidthsp();
 
 
 
+/* Remove "#" from menu anchor items to avoid jump to the top of the page
+--------------------------------------------------------------------------------------- */
+
+
+$('ul > li.menu-item-has-children > a').removeAttr("href");
+
+
+
 // sidebar
 
 

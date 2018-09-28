@@ -1,3 +1,5 @@
+
+
 .internal_title_wrapper {
 	width:100%;
 	height:auto;
@@ -5,7 +7,10 @@
 	background-size:cover;
 }
 
-body:not(.page-template-default) {
+/* hacky after the fact changes below i did this instead of reocding the four different pa templates */
+
+
+body.page-template-template-caseresults, body.page-template-template-testimonials, body.blog, body.archive, body.category, body.single, body.page-template-template-bio, body.page-template-template-meetteam, body.page-template-template-padirectory, body.page-template-template-video  {
 	.internal_title_wrapper {
 		background: #f1f1f1;
 	}
@@ -345,7 +350,7 @@ body:not(.page-template-default) {
 	}
 	
 	
-	body:not(.page-template-default) {
+	body.page-template-template-caseresults, body.page-template-template-testimonials, body.blog, body.archive, body.category, body.single, body.page-template-template-bio, body.page-template-template-meetteam, body.page-template-template-padirectory, body.page-template-template-video  {
 	.internal_title_wrapper {
 		
 	}
@@ -468,7 +473,7 @@ body:not(.page-template-default) {
 	}
 	
 	
-	body:not(.page-template-default) {
+	body.page-template-template-caseresults, body.page-template-template-testimonials, body.blog, body.archive, body.category, body.single, body.page-template-template-bio, body.page-template-template-meetteam, body.page-template-template-padirectory, body.page-template-template-video   {
 	.internal_title_wrapper {
 		
 	}

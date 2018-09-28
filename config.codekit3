@@ -7,7 +7,7 @@
 		"uuidString": "E8146E93-DB60-42B0-AD8E-163833E70537"
 		}
 	],
-"creatorBuild": "28815",
+"creatorBuild": "28841",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -21,6 +21,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/.htaccess",
+		"oF": 0
+		},
+	"/.maintenance": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.maintenance",
 		"oF": 0
 		},
 	"/index.php": {

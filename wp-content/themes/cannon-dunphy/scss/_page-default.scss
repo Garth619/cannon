@@ -143,10 +143,10 @@ body.page-template-template-caseresults, body.page-template-template-testimonial
 			margin-top:40px;
 		}
 	}
-	ul#gform_fields_2 {
+	ul#gform_fields_2, ul#gform_fields_4 {
 		list-style: none;
 		margin:60px 0 0;
-		li#field_2_5 {
+		li#field_2_5, li#field_4_5 {
 			flex-basis: 66.333%;
 			&:after {
 				content:"";
@@ -168,7 +168,7 @@ body.page-template-template-caseresults, body.page-template-template-testimonial
 				-webkit-appearance: none;
 			}
 		}
-		li#field_2_6 {
+		li#field_2_6, li#field_4_6 {
 			flex-basis: 100%;
 		}
 		li {

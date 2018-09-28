@@ -14,7 +14,7 @@
 	
 </div><!-- internal_title_wrapper -->
 
-<div class="internal_main two_col">
+<div id="internal_trigger" class="internal_main two_col">
 	
 	<div class="container content">
 		

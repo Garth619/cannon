@@ -4,11 +4,11 @@
 		
 		<span class="sidebar_request">request your free consultation</span><!-- sidebar_request -->
 		
-		<span class="sidebar_get_started">Get Started Today</span><!-- sidebar_get_started -->
+		<span class="sidebar_get_started">Programe Su Consulta Gratuita</span><!-- sidebar_get_started -->
 		
 		<span class="sidebar_required">* Required Field</span><!-- sidebar_required -->
 		
-		<?php gravity_form(2, false, false, false, '', true, 55); ?>
+		<?php gravity_form(4, false, false, false, '', true, 505); ?>
 		
 	</div><!-- sidebar_form -->
 	
@@ -16,7 +16,7 @@
 		
 		<div class="sidebar_pa_inner">
 		
-			<span class="sidebar_pa_title">Lorem Ipsum Dolore</span><!-- sidebar_pa_title -->
+			<span class="sidebar_pa_title">Areas de Práctica</span><!-- sidebar_pa_title -->
 			
 			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'spanish_menu' ) ); ?>
 		

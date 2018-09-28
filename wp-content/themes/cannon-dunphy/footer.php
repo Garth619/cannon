@@ -4,15 +4,31 @@
 		
 		<span class="footer_request_title">request your free consultation</span><!-- footer_request_title -->
 		
-		<span class="get_started_title">get started today</span><!-- get_started_title -->
+		<?php if(is_page_template( 'template-spanish.php')): ?>
 		
-		<span class="required_title">* Required Field</span><!-- required_title -->
+			<span class="get_started_title">Programe Su Consulta Gratuita</span><!-- get_started_title -->
 		
-		<div class="form">
+			<span class="required_title">* Required Field</span><!-- required_title -->
+		
+			<div class="form">
 			
-			<?php gravity_form(1, false, false, false, '', true, 34); ?>
+				<?php gravity_form(6, false, false, false, '', true, 450); ?>
 			
-		</div><!-- form -->
+			</div><!-- form -->
+		
+		<?php else:?>
+				
+			<span class="get_started_title">get started today</span><!-- get_started_title -->
+		
+			<span class="required_title">* Required Field</span><!-- required_title -->
+		
+			<div class="form">
+			
+				<?php gravity_form(1, false, false, false, '', true, 34); ?>
+			
+			</div><!-- form -->
+		
+		<?php endif;?>
 		
 	</div><!-- footer_inner -->
 	

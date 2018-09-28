@@ -33,8 +33,9 @@
 /* CSS in Header for Lighthouse
 -------------------------------------------------------------- */
  
-/*
+
  
+/*
 function internal_css_print() {
    echo '<style>';
    
@@ -46,6 +47,7 @@ function internal_css_print() {
 
 add_action( 'wp_head', 'internal_css_print' );
 */
+
 
  
  
